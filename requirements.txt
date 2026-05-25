@@ -1,0 +1,9 @@
+requests
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+pyqt5
+pytesseract
+opencv-python

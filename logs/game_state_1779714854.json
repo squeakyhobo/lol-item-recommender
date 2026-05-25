@@ -1,0 +1,244 @@
+{
+    "activePlayer": {
+        "abilities": {
+            "E": {
+                "abilityLevel": 0,
+                "displayName": "Umbral Dash",
+                "id": "AatroxE",
+                "rawDescription": "GeneratedTip_Spell_AatroxE_Description",
+                "rawDisplayName": "GeneratedTip_Spell_AatroxE_DisplayName"
+            },
+            "Passive": {
+                "displayName": "Deathbringer Stance",
+                "id": "AatroxPassive",
+                "rawDescription": "GeneratedTip_Passive_AatroxPassive_Description",
+                "rawDisplayName": "GeneratedTip_Passive_AatroxPassive_DisplayName"
+            },
+            "Q": {
+                "abilityLevel": 1,
+                "displayName": "The Darkin Blade",
+                "id": "AatroxQ",
+                "rawDescription": "GeneratedTip_Spell_AatroxQ_Description",
+                "rawDisplayName": "GeneratedTip_Spell_AatroxQ_DisplayName"
+            },
+            "R": {
+                "abilityLevel": 0,
+                "displayName": "World Ender",
+                "id": "AatroxR",
+                "rawDescription": "GeneratedTip_Spell_AatroxR_Description",
+                "rawDisplayName": "GeneratedTip_Spell_AatroxR_DisplayName"
+            },
+            "W": {
+                "abilityLevel": 0,
+                "displayName": "Infernal Chains",
+                "id": "AatroxW",
+                "rawDescription": "GeneratedTip_Spell_AatroxW_Description",
+                "rawDisplayName": "GeneratedTip_Spell_AatroxW_DisplayName"
+            }
+        },
+        "championStats": {
+            "abilityHaste": 0.0,
+            "abilityPower": 0.0,
+            "armor": 38.0,
+            "armorPenetrationFlat": 0.0,
+            "armorPenetrationPercent": 1.0,
+            "attackDamage": 65.4000015258789,
+            "attackRange": 225.0,
+            "attackSpeed": 0.7161000370979309,
+            "bonusArmorPenetrationPercent": 1.0,
+            "bonusMagicPenetrationPercent": 1.0,
+            "critChance": 0.0,
+            "critDamage": 200.0,
+            "currentHealth": 660.0,
+            "healShieldPower": 0.0,
+            "healthRegenRate": 0.6000000238418579,
+            "lifeSteal": 0.0,
+            "magicLethality": 0.0,
+            "magicPenetrationFlat": 0.0,
+            "magicPenetrationPercent": 1.0,
+            "magicResist": 32.0,
+            "maxHealth": 660.0,
+            "moveSpeed": 575.0,
+            "omnivamp": 0.0,
+            "physicalLethality": 0.0,
+            "physicalVamp": 0.0,
+            "resourceMax": 0.0,
+            "resourceRegenRate": 0.0,
+            "resourceType": "BLOODWELL",
+            "resourceValue": 0.0,
+            "spellVamp": 0.0,
+            "tenacity": 5.0
+        },
+        "currentGold": 640.7623291015625,
+        "fullRunes": {
+            "generalRunes": [
+                {
+                    "displayName": "Press the Attack",
+                    "id": 8005,
+                    "rawDescription": "perk_tooltip_PressTheAttack",
+                    "rawDisplayName": "perk_displayname_PressTheAttack"
+                },
+                {
+                    "displayName": "Triumph",
+                    "id": 9111,
+                    "rawDescription": "perk_tooltip_9111",
+                    "rawDisplayName": "perk_displayname_9111"
+                },
+                {
+                    "displayName": "Legend: Haste",
+                    "id": 9105,
+                    "rawDescription": "perk_tooltip_9105",
+                    "rawDisplayName": "perk_displayname_9105"
+                },
+                {
+                    "displayName": "Last Stand",
+                    "id": 8299,
+                    "rawDescription": "perk_tooltip_8234",
+                    "rawDisplayName": "perk_displayname_8234"
+                },
+                {
+                    "displayName": "Conditioning",
+                    "id": 8429,
+                    "rawDescription": "perk_tooltip_Conditioning",
+                    "rawDisplayName": "perk_displayname_Conditioning"
+                },
+                {
+                    "displayName": "Unflinching",
+                    "id": 8242,
+                    "rawDescription": "perk_tooltip_Unflinching",
+                    "rawDisplayName": "perk_displayname_Unflinching"
+                }
+            ],
+            "keystone": {
+                "displayName": "Press the Attack",
+                "id": 8005,
+                "rawDescription": "perk_tooltip_PressTheAttack",
+                "rawDisplayName": "perk_displayname_PressTheAttack"
+            },
+            "primaryRuneTree": {
+                "displayName": "Precision",
+                "id": 8000,
+                "rawDescription": "perkstyle_tooltip_7201",
+                "rawDisplayName": "perkstyle_displayname_7201"
+            },
+            "secondaryRuneTree": {
+                "displayName": "Resolve",
+                "id": 8400,
+                "rawDescription": "perkstyle_tooltip_7204",
+                "rawDisplayName": "perkstyle_displayname_7204"
+            },
+            "statRunes": [
+                {
+                    "id": 5005,
+                    "rawDescription": "perk_tooltip_StatModAttackSpeed"
+                },
+                {
+                    "id": 5008,
+                    "rawDescription": "perk_tooltip_StatModAdaptive"
+                },
+                {
+                    "id": 5001,
+                    "rawDescription": "perk_tooltip_StatModHealthScaling"
+                }
+            ]
+        },
+        "level": 1,
+        "riotId": "squeakyHobo#hobo",
+        "riotIdGameName": "squeakyHobo",
+        "riotIdTagLine": "hobo",
+        "summonerName": "squeakyHobo#hobo",
+        "teamRelativeColors": true
+    },
+    "allPlayers": [
+        {
+            "championName": "Aatrox",
+            "isBot": false,
+            "isDead": false,
+            "items": [
+                {
+                    "canUse": true,
+                    "consumable": false,
+                    "count": 1,
+                    "displayName": "Stealth Ward",
+                    "itemID": 3340,
+                    "price": 0,
+                    "rawDescription": "GeneratedTip_Item_3340_Description",
+                    "rawDisplayName": "Item_3340_Name",
+                    "slot": 6
+                }
+            ],
+            "level": 1,
+            "position": "NONE",
+            "rawChampionName": "Character_Aatrox_Name",
+            "rawSkinName": "game_character_displayname_Aatrox",
+            "respawnTimer": 0.0,
+            "riotId": "squeakyHobo#hobo",
+            "riotIdGameName": "squeakyHobo",
+            "riotIdTagLine": "hobo",
+            "runes": {
+                "keystone": {
+                    "displayName": "Press the Attack",
+                    "id": 8005,
+                    "rawDescription": "perk_tooltip_PressTheAttack",
+                    "rawDisplayName": "perk_displayname_PressTheAttack"
+                },
+                "primaryRuneTree": {
+                    "displayName": "Precision",
+                    "id": 8000,
+                    "rawDescription": "perkstyle_tooltip_7201",
+                    "rawDisplayName": "perkstyle_displayname_7201"
+                },
+                "secondaryRuneTree": {
+                    "displayName": "Resolve",
+                    "id": 8400,
+                    "rawDescription": "perkstyle_tooltip_7204",
+                    "rawDisplayName": "perkstyle_displayname_7204"
+                }
+            },
+            "scores": {
+                "assists": 0,
+                "creepScore": 0,
+                "deaths": 0,
+                "kills": 0,
+                "wardScore": 0.0
+            },
+            "skinID": 0,
+            "skinName": "Aatrox",
+            "summonerName": "squeakyHobo#hobo",
+            "summonerSpells": {
+                "summonerSpellOne": {
+                    "displayName": "Ghost",
+                    "rawDescription": "GeneratedTip_SummonerSpell_SummonerHaste_Description",
+                    "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHaste_DisplayName"
+                },
+                "summonerSpellTwo": {
+                    "displayName": "Heal",
+                    "rawDescription": "GeneratedTip_SummonerSpell_SummonerHeal_Description",
+                    "rawDisplayName": "GeneratedTip_SummonerSpell_SummonerHeal_DisplayName"
+                }
+            },
+            "team": "ORDER"
+        }
+    ],
+    "events": {
+        "Events": [
+            {
+                "EventID": 0,
+                "EventName": "GameStart",
+                "EventTime": 0.0183825995773077
+            },
+            {
+                "EventID": 1,
+                "EventName": "MinionsSpawning",
+                "EventTime": 30.023414611816406
+            }
+        ]
+    },
+    "gameData": {
+        "gameMode": "PRACTICETOOL",
+        "gameTime": 133.64004516601562,
+        "mapName": "Map11",
+        "mapNumber": 11,
+        "mapTerrain": "Default"
+    }
+}
