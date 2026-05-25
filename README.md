@@ -21,4 +21,4 @@ A real-time, AI-driven itemization engine for League of Legends, specifically op
 3. Launch the advisor: `python scripts/hud/inference_hud.py`
 
 ---
-*Created as part of the Blue Giant Development Phase.*
+
