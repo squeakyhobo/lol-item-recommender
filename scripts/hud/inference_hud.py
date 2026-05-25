@@ -13,7 +13,7 @@ from model import LTATransformer
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "eye"))
 from live_scraper import LiveScraper
 
-BASE_DIR = r"C:\Users\Lucas\Desktop\LTA"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 MODEL_PATH = os.path.join(BASE_DIR, "models", "lta_brain.pth")
 
@@ -116,7 +116,7 @@ class LTAOverlay(QWidget):
         self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint | Qt.WindowTransparentForInput)
         self.setAttribute(Qt.WA_TranslucentBackground)
         self.layout = QVBoxLayout()
-        self.title = QLabel("LTA TOP LANE ADVISOR V1.1")
+        self.title = QLabel("LoL ITEM RECOMMENDER V1.1")
         self.title.setStyleSheet("color: #FFA500; font-size: 14px; font-weight: bold; background-color: rgba(0, 0, 0, 180); padding: 5px;")
         self.layout.addWidget(self.title)
         self.recs = [QLabel("Waiting for match...") for _ in range(3)]

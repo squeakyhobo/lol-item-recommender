@@ -8,7 +8,7 @@ import os
 import numpy as np
 from model import LTATransformer
 
-BASE_DIR = r"C:\Users\Lucas\Desktop\LTA"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 

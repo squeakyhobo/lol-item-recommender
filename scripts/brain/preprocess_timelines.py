@@ -2,7 +2,7 @@
 import os
 import json
 
-BASE_DIR = r"C:\Users\Lucas\Desktop\LTA"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 TIMELINE_DIR = os.path.join(DATA_DIR, "timelines")
 

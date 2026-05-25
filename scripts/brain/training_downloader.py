@@ -1,10 +1,10 @@
-﻿import os
+import os
 import requests
 import json
 import time
 from dotenv import load_dotenv
 
-BASE_DIR = r"C:\Users\Lucas\Desktop\LTA"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 API_KEY = os.getenv("RIOT_API_KEY")
 REGION = "euw1"
