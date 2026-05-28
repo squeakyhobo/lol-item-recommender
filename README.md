@@ -1,6 +1,7 @@
 > This README was made with Gemini
 
 # LoL Item Recommender
+<img width="4800" height="3659" alt="image" src="https://github.com/user-attachments/assets/43ea82c7-270a-4efa-af01-746734fdd704" />
 
 A real-time, AI-driven itemization engine for League of Legends, specifically optimized for the Top Lane. It uses a custom PyTorch Transformer architecture to analyze live game states and recommend counter-builds based on Challenger-level winning patterns.
 
