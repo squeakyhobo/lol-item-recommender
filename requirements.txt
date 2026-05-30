@@ -7,3 +7,7 @@ torchvision
 pyqt5
 pytesseract
 opencv-python
+smolagents
+litellm
+python-dotenv
+matplotlib

@@ -1,0 +1,36 @@
+{
+  "general_rules": [
+    {
+      "strategy": "Freeze",
+      "condition": "Enemy wave is 3+ minions larger than yours and near your turret.",
+      "goal": "Force the enemy to walk up into a gank risk and deny them gold/XP."
+    },
+    {
+      "strategy": "Slow Push",
+      "condition": "You have a slight minion advantage or a new wave just arrived.",
+      "goal": "Build a massive hoard. This makes you 'undiveable' and lets you recall safely after it crashes."
+    },
+    {
+      "strategy": "Fast Push / Reset",
+      "condition": "You need to recall or rotate to an objective (Grubs/Herald).",
+      "goal": "Kill the minions as fast as possible to crash the wave and minimize lost XP while you are gone."
+    },
+    {
+      "strategy": "Cheater Recall",
+      "condition": "Minute 2.5 (The 3rd wave / Cannon wave).",
+      "goal": "Hard shove the cannon wave, recall immediately for a Long Sword/Cull, and walk back without losing a single minion."
+    }
+  ],
+  "yorick_special_rules": [
+    {
+      "strategy": "Grave Farming",
+      "condition": "Early game, less than 3 graves available.",
+      "goal": "GENERAL RULE OVERRIDE: Do NOT push. Last hit only until you have a 'Hoard' ready to summon."
+    },
+    {
+      "strategy": "Maiden Pressure",
+      "condition": "Maiden is active.",
+      "goal": "GENERAL RULE OVERRIDE: You cannot freeze. Focus on 'Perma-Push' and taking Jungle camps between waves."
+    }
+  ]
+}

@@ -1,24 +1,23 @@
-> This README was made with Gemini
+# 🧟 The Maiden's Brain (LTA Goliath V6.0)
 
-# LoL Item Recommender
+> **Made with Gemini**
 
-A real-time, AI-driven itemization engine for League of Legends, specifically optimized for the Top Lane. It uses a custom PyTorch Transformer architecture to analyze live game states and recommend counter-builds based on Challenger-level winning patterns.
+A real-time AI assistant for League of Legends, specially optimized for **Yorick**. 
 
-## ?? The Architecture
-1. **The Eye (Data Extraction):** Real-time extraction of player stats and gold via the Riot Live Client API.
-2. **The Pre-Processor (Clustering):** Maps 160+ champions into 8 core **Archetypes** (e.g., Juggernauts, Skirmishers, Wardens).
-3. **The Brain (Transformer):** A 4-layer Transformer Encoder that uses **Attention** to weigh enemy threats.
-4. **The HUD (Overlay):** A transparent PyQt5 window that provides Top 3 recommendations without interrupting gameplay.
+This AI analyzes your game in real-time and recommends items based on winning patterns from the top 50 Yorick players in the world.
 
-## ?? Key Innovations
-- **Inventory Positional Embeddings:** The model understands the chronological order of your build path.
-- **Logit Masking:** An expert system that enforces game rules (e.g., no double boots, unique passive group restrictions).
-- **Winners-Only Training:** The model is trained exclusively on the sequences of players who successfully closed out their games.
+### 🧠 Key Features
+- **Yorick Only (for now):** Trained on 2,500+ high-ELO Yorick matches.
+- **Smart Pruning:** The AI only suggests items that pro Yorick players actually buy.
+- **Rune Aware:** Recognizes your Keystone (Conqueror, Comet, etc.) and changes your build path to match.
+- **Wave Coach:** Includes an AI coach that gives you tips on how to manage your minion waves.
 
-## ??? Installation & Usage
-1. Install dependencies: `pip install -r requirements.txt`
-2. Set your Riot API Key in `.env`.
-3. Launch the advisor: `python scripts/hud/inference_hud.py`
+### 🛠️ Setup
+1. Install requirements: `pip install -r requirements.txt`
+2. Add your API keys to `.env`.
+3. Build the data: `python scripts/brain/preprocess_yorick.py`
+4. Train the AI: `python scripts/brain/train_yorick.py`
 
----
-
+### 🎮 How to Use
+Run the overlay while playing:
+`python scripts/hud/inference_hud.py`

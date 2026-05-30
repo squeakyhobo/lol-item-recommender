@@ -1,4 +1,36 @@
-
-logs/
-data/timelines/
+# API Keys
 .env
+
+# Logs
+logs/
+
+# Model Weights
+models/*.pth
+models/*.pt
+
+# --- DATA FOLDER SAFETY ---
+# Ignore everything in data by default
+data/*
+
+# Specifically whitelist ONLY the configuration files needed for the HUD to run
+!data/archetypes.json
+!data/champion_dna.json
+!data/expert_config.json
+!data/item_clusters.json
+!data/item_dna.json
+!data/item_map.json
+!data/item_names.json
+!data/valid_targets.json
+!data/wave_rules.json
+!data/yorick_vocab.json
+
+# Ensure the massive training folders stay ignored
+data/matches/
+data/timelines/
+data/yorick_games/
+data/*.jsonl
+
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

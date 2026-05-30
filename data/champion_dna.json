@@ -1,0 +1,4646 @@
+{
+    "Aatrox": {
+        "name": "Aatrox",
+        "hp": {
+            "base": 650,
+            "growth": 114
+        },
+        "armor": {
+            "base": 38,
+            "growth": 4.8
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.651,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Ahri": {
+        "name": "Ahri",
+        "hp": {
+            "base": 590,
+            "growth": 104
+        },
+        "armor": {
+            "base": 21,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.668,
+            "growth": 2.2
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Akali": {
+        "name": "Akali",
+        "hp": {
+            "base": 600,
+            "growth": 119
+        },
+        "armor": {
+            "base": 23,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 37,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.2
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Akshan": {
+        "name": "Akshan",
+        "hp": {
+            "base": 610,
+            "growth": 107
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 4
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Alistar": {
+        "name": "Alistar",
+        "hp": {
+            "base": 685,
+            "growth": 120
+        },
+        "armor": {
+            "base": 40,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.125
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Ambessa": {
+        "name": "Ambessa",
+        "hp": {
+            "base": 630,
+            "growth": 110
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4.9
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Amumu": {
+        "name": "Amumu",
+        "hp": {
+            "base": 685,
+            "growth": 94
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.736,
+            "growth": 2.18
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Anivia": {
+        "name": "Anivia",
+        "hp": {
+            "base": 550,
+            "growth": 92
+        },
+        "armor": {
+            "base": 19,
+            "growth": 4.1
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 51,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 1.68
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Annie": {
+        "name": "Annie",
+        "hp": {
+            "base": 560,
+            "growth": 96
+        },
+        "armor": {
+            "base": 23,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.61,
+            "growth": 1.36
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Aphelios": {
+        "name": "Aphelios",
+        "hp": {
+            "base": 600,
+            "growth": 102
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.665,
+            "growth": 2.1
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Ashe": {
+        "name": "Ashe",
+        "hp": {
+            "base": 610,
+            "growth": 101
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "AurelionSol": {
+        "name": "Aurelion Sol",
+        "hp": {
+            "base": 600,
+            "growth": 90
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Aurora": {
+        "name": "Aurora",
+        "hp": {
+            "base": 607,
+            "growth": 110
+        },
+        "armor": {
+            "base": 23,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.668,
+            "growth": 2
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Azir": {
+        "name": "Azir",
+        "hp": {
+            "base": 575,
+            "growth": 108
+        },
+        "armor": {
+            "base": 25,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Bard": {
+        "name": "Bard",
+        "hp": {
+            "base": 630,
+            "growth": 103
+        },
+        "armor": {
+            "base": 34,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Belveth": {
+        "name": "Bel'Veth",
+        "hp": {
+            "base": 610,
+            "growth": 105
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.85,
+            "growth": 0
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Blitzcrank": {
+        "name": "Blitzcrank",
+        "hp": {
+            "base": 600,
+            "growth": 109
+        },
+        "armor": {
+            "base": 37,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.13
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Brand": {
+        "name": "Brand",
+        "hp": {
+            "base": 570,
+            "growth": 105
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.681,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Braum": {
+        "name": "Braum",
+        "hp": {
+            "base": 610,
+            "growth": 112
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Briar": {
+        "name": "Briar",
+        "hp": {
+            "base": 625,
+            "growth": 95
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Caitlyn": {
+        "name": "Caitlyn",
+        "hp": {
+            "base": 580,
+            "growth": 107
+        },
+        "armor": {
+            "base": 27,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.681,
+            "growth": 4
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Camille": {
+        "name": "Camille",
+        "hp": {
+            "base": 650,
+            "growth": 99
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Cassiopeia": {
+        "name": "Cassiopeia",
+        "hp": {
+            "base": 630,
+            "growth": 104
+        },
+        "armor": {
+            "base": 18,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.647,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Chogath": {
+        "name": "Cho'Gath",
+        "hp": {
+            "base": 644,
+            "growth": 94
+        },
+        "armor": {
+            "base": 38,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 1.44
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Corki": {
+        "name": "Corki",
+        "hp": {
+            "base": 610,
+            "growth": 100
+        },
+        "armor": {
+            "base": 27,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 2.8
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Darius": {
+        "name": "Darius",
+        "hp": {
+            "base": 652,
+            "growth": 114
+        },
+        "armor": {
+            "base": 37,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Diana": {
+        "name": "Diana",
+        "hp": {
+            "base": 640,
+            "growth": 109
+        },
+        "armor": {
+            "base": 31,
+            "growth": 4.3
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Draven": {
+        "name": "Draven",
+        "hp": {
+            "base": 675,
+            "growth": 104
+        },
+        "armor": {
+            "base": 29,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.679,
+            "growth": 2.7
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "DrMundo": {
+        "name": "Dr. Mundo",
+        "hp": {
+            "base": 640,
+            "growth": 103
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 29,
+            "growth": 2.3
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.67,
+            "growth": 3.3
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Ekko": {
+        "name": "Ekko",
+        "hp": {
+            "base": 655,
+            "growth": 99
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.688,
+            "growth": 3.3
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Elise": {
+        "name": "Elise",
+        "hp": {
+            "base": 620,
+            "growth": 109
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.75
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Evelynn": {
+        "name": "Evelynn",
+        "hp": {
+            "base": 642,
+            "growth": 98
+        },
+        "armor": {
+            "base": 37,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.667,
+            "growth": 2.1
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Ezreal": {
+        "name": "Ezreal",
+        "hp": {
+            "base": 600,
+            "growth": 102
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Fiddlesticks": {
+        "name": "Fiddlesticks",
+        "hp": {
+            "base": 650,
+            "growth": 106
+        },
+        "armor": {
+            "base": 34,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Fiora": {
+        "name": "Fiora",
+        "hp": {
+            "base": 620,
+            "growth": 99
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.69,
+            "growth": 3.2
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Fizz": {
+        "name": "Fizz",
+        "hp": {
+            "base": 640,
+            "growth": 106
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.1
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Galio": {
+        "name": "Galio",
+        "hp": {
+            "base": 600,
+            "growth": 126
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Gangplank": {
+        "name": "Gangplank",
+        "hp": {
+            "base": 630,
+            "growth": 114
+        },
+        "armor": {
+            "base": 31,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.2
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Garen": {
+        "name": "Garen",
+        "hp": {
+            "base": 690,
+            "growth": 98
+        },
+        "armor": {
+            "base": 38,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.55
+        },
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.65
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Gnar": {
+        "name": "Gnar",
+        "hp": {
+            "base": 540,
+            "growth": 79
+        },
+        "armor": {
+            "base": 32,
+            "growth": 3.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 6
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Gragas": {
+        "name": "Gragas",
+        "hp": {
+            "base": 640,
+            "growth": 115
+        },
+        "armor": {
+            "base": 38,
+            "growth": 5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.675,
+            "growth": 2.05
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Graves": {
+        "name": "Graves",
+        "hp": {
+            "base": 625,
+            "growth": 106
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.475,
+            "growth": 3
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Gwen": {
+        "name": "Gwen",
+        "hp": {
+            "base": 620,
+            "growth": 115
+        },
+        "armor": {
+            "base": 39,
+            "growth": 4.9
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.69,
+            "growth": 2.25
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Hecarim": {
+        "name": "Hecarim",
+        "hp": {
+            "base": 625,
+            "growth": 106
+        },
+        "armor": {
+            "base": 32,
+            "growth": 5.45
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.67,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Heimerdinger": {
+        "name": "Heimerdinger",
+        "hp": {
+            "base": 558,
+            "growth": 105
+        },
+        "armor": {
+            "base": 19,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 1.36
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Hwei": {
+        "name": "Hwei",
+        "hp": {
+            "base": 580,
+            "growth": 109
+        },
+        "armor": {
+            "base": 21,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.69,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Illaoi": {
+        "name": "Illaoi",
+        "hp": {
+            "base": 656,
+            "growth": 115
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Irelia": {
+        "name": "Irelia",
+        "hp": {
+            "base": 630,
+            "growth": 115
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.656,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Ivern": {
+        "name": "Ivern",
+        "hp": {
+            "base": 630,
+            "growth": 99
+        },
+        "armor": {
+            "base": 27,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 3.4
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Janna": {
+        "name": "Janna",
+        "hp": {
+            "base": 570,
+            "growth": 90
+        },
+        "armor": {
+            "base": 28,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 47,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "JarvanIV": {
+        "name": "Jarvan IV",
+        "hp": {
+            "base": 640,
+            "growth": 104
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Jax": {
+        "name": "Jax",
+        "hp": {
+            "base": 650,
+            "growth": 103
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 3.4
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Jayce": {
+        "name": "Jayce",
+        "hp": {
+            "base": 590,
+            "growth": 109
+        },
+        "armor": {
+            "base": 22,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Jhin": {
+        "name": "Jhin",
+        "hp": {
+            "base": 655,
+            "growth": 107
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 0
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Jinx": {
+        "name": "Jinx",
+        "hp": {
+            "base": 630,
+            "growth": 105
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Kaisa": {
+        "name": "Kai'Sa",
+        "hp": {
+            "base": 640,
+            "growth": 102
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 1.8
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Kalista": {
+        "name": "Kalista",
+        "hp": {
+            "base": 560,
+            "growth": 114
+        },
+        "armor": {
+            "base": 24,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.694,
+            "growth": 4.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Karma": {
+        "name": "Karma",
+        "hp": {
+            "base": 630,
+            "growth": 109
+        },
+        "armor": {
+            "base": 28,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.3
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Karthus": {
+        "name": "Karthus",
+        "hp": {
+            "base": 620,
+            "growth": 110
+        },
+        "armor": {
+            "base": 21,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 46,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Kassadin": {
+        "name": "Kassadin",
+        "hp": {
+            "base": 646,
+            "growth": 113
+        },
+        "armor": {
+            "base": 21,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.64,
+            "growth": 3.7
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Katarina": {
+        "name": "Katarina",
+        "hp": {
+            "base": 672,
+            "growth": 108
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.74
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Kayle": {
+        "name": "Kayle",
+        "hp": {
+            "base": 670,
+            "growth": 92
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 22,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Kayn": {
+        "name": "Kayn",
+        "hp": {
+            "base": 655,
+            "growth": 103
+        },
+        "armor": {
+            "base": 38,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.669,
+            "growth": 2.7
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Kennen": {
+        "name": "Kennen",
+        "hp": {
+            "base": 580,
+            "growth": 98
+        },
+        "armor": {
+            "base": 29,
+            "growth": 4.95
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 48,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.4
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Khazix": {
+        "name": "Kha'Zix",
+        "hp": {
+            "base": 643,
+            "growth": 99
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.668,
+            "growth": 2.7
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Kindred": {
+        "name": "Kindred",
+        "hp": {
+            "base": 595,
+            "growth": 104
+        },
+        "armor": {
+            "base": 29,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Kled": {
+        "name": "Kled",
+        "hp": {
+            "base": 410,
+            "growth": 84
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "KogMaw": {
+        "name": "Kog'Maw",
+        "hp": {
+            "base": 635,
+            "growth": 99
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.45
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.665,
+            "growth": 2.65
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "KSante": {
+        "name": "K'Sante",
+        "hp": {
+            "base": 625,
+            "growth": 120
+        },
+        "armor": {
+            "base": 36,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 2.1
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.688,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Leblanc": {
+        "name": "LeBlanc",
+        "hp": {
+            "base": 598,
+            "growth": 108
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.35
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "LeeSin": {
+        "name": "Lee Sin",
+        "hp": {
+            "base": 645,
+            "growth": 108
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.651,
+            "growth": 3
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Leona": {
+        "name": "Leona",
+        "hp": {
+            "base": 646,
+            "growth": 101
+        },
+        "armor": {
+            "base": 43,
+            "growth": 4.8
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.9
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Lillia": {
+        "name": "Lillia",
+        "hp": {
+            "base": 605,
+            "growth": 105
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.55
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.7
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Lissandra": {
+        "name": "Lissandra",
+        "hp": {
+            "base": 620,
+            "growth": 110
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.656,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Lucian": {
+        "name": "Lucian",
+        "hp": {
+            "base": 641,
+            "growth": 100
+        },
+        "armor": {
+            "base": 28,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Lulu": {
+        "name": "Lulu",
+        "hp": {
+            "base": 565,
+            "growth": 92
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 47,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.25
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Lux": {
+        "name": "Lux",
+        "hp": {
+            "base": 580,
+            "growth": 99
+        },
+        "armor": {
+            "base": 21,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.669,
+            "growth": 3
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Malphite": {
+        "name": "Malphite",
+        "hp": {
+            "base": 665,
+            "growth": 104
+        },
+        "armor": {
+            "base": 40,
+            "growth": 4.95
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.736,
+            "growth": 3.4
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Malzahar": {
+        "name": "Malzahar",
+        "hp": {
+            "base": 580,
+            "growth": 101
+        },
+        "armor": {
+            "base": 18,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Maokai": {
+        "name": "Maokai",
+        "hp": {
+            "base": 665,
+            "growth": 109
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.8,
+            "growth": 2.125
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "MasterYi": {
+        "name": "Master Yi",
+        "hp": {
+            "base": 640,
+            "growth": 105
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.679,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 355,
+            "growth": 0
+        }
+    },
+    "Mel": {
+        "name": "Mel",
+        "hp": {
+            "base": 630,
+            "growth": 99
+        },
+        "armor": {
+            "base": 21,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Milio": {
+        "name": "Milio",
+        "hp": {
+            "base": 560,
+            "growth": 88
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 48,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "MissFortune": {
+        "name": "Miss Fortune",
+        "hp": {
+            "base": 625,
+            "growth": 100
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.656,
+            "growth": 3
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "MonkeyKing": {
+        "name": "Wukong",
+        "hp": {
+            "base": 610,
+            "growth": 99
+        },
+        "armor": {
+            "base": 31,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.69,
+            "growth": 3
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Mordekaiser": {
+        "name": "Mordekaiser",
+        "hp": {
+            "base": 645,
+            "growth": 104
+        },
+        "armor": {
+            "base": 37,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Morgana": {
+        "name": "Morgana",
+        "hp": {
+            "base": 630,
+            "growth": 104
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.53
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Naafiri": {
+        "name": "Naafiri",
+        "hp": {
+            "base": 610,
+            "growth": 105
+        },
+        "armor": {
+            "base": 28,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.663,
+            "growth": 2.1
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Nami": {
+        "name": "Nami",
+        "hp": {
+            "base": 560,
+            "growth": 88
+        },
+        "armor": {
+            "base": 29,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 2.61
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Nasus": {
+        "name": "Nasus",
+        "hp": {
+            "base": 650,
+            "growth": 104
+        },
+        "armor": {
+            "base": 34,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 67,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 3.48
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Nautilus": {
+        "name": "Nautilus",
+        "hp": {
+            "base": 646,
+            "growth": 100
+        },
+        "armor": {
+            "base": 39,
+            "growth": 4.95
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.706,
+            "growth": 1
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Neeko": {
+        "name": "Neeko",
+        "hp": {
+            "base": 610,
+            "growth": 104
+        },
+        "armor": {
+            "base": 21,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 48,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Nidalee": {
+        "name": "Nidalee",
+        "hp": {
+            "base": 610,
+            "growth": 109
+        },
+        "armor": {
+            "base": 32,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.45
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 3.22
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Nilah": {
+        "name": "Nilah",
+        "hp": {
+            "base": 570,
+            "growth": 101
+        },
+        "armor": {
+            "base": 27,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.697,
+            "growth": 1.25
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Nocturne": {
+        "name": "Nocturne",
+        "hp": {
+            "base": 655,
+            "growth": 109
+        },
+        "armor": {
+            "base": 38,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.55
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.721,
+            "growth": 2.7
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Nunu": {
+        "name": "Nunu & Willump",
+        "hp": {
+            "base": 610,
+            "growth": 90
+        },
+        "armor": {
+            "base": 29,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.25
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Olaf": {
+        "name": "Olaf",
+        "hp": {
+            "base": 645,
+            "growth": 119
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.72,
+            "growth": 2.7
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Orianna": {
+        "name": "Orianna",
+        "hp": {
+            "base": 585,
+            "growth": 110
+        },
+        "armor": {
+            "base": 20,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 26,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 44,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Ornn": {
+        "name": "Ornn",
+        "hp": {
+            "base": 660,
+            "growth": 109
+        },
+        "armor": {
+            "base": 33,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Pantheon": {
+        "name": "Pantheon",
+        "hp": {
+            "base": 650,
+            "growth": 109
+        },
+        "armor": {
+            "base": 40,
+            "growth": 4.95
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.95
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Poppy": {
+        "name": "Poppy",
+        "hp": {
+            "base": 610,
+            "growth": 110
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Pyke": {
+        "name": "Pyke",
+        "hp": {
+            "base": 670,
+            "growth": 110
+        },
+        "armor": {
+            "base": 37,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.667,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Qiyana": {
+        "name": "Qiyana",
+        "hp": {
+            "base": 590,
+            "growth": 115
+        },
+        "armor": {
+            "base": 31,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.688,
+            "growth": 2.1
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Quinn": {
+        "name": "Quinn",
+        "hp": {
+            "base": 565,
+            "growth": 107
+        },
+        "armor": {
+            "base": 28,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.668,
+            "growth": 3.1
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Rakan": {
+        "name": "Rakan",
+        "hp": {
+            "base": 610,
+            "growth": 99
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4.9
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.635,
+            "growth": 3
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Rammus": {
+        "name": "Rammus",
+        "hp": {
+            "base": 645,
+            "growth": 100
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.7,
+            "growth": 2.215
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "RekSai": {
+        "name": "Rek'Sai",
+        "hp": {
+            "base": 600,
+            "growth": 99
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.667,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Rell": {
+        "name": "Rell",
+        "hp": {
+            "base": 620,
+            "growth": 104
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4
+        },
+        "mr": {
+            "base": 28,
+            "growth": 1.8
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 315,
+            "growth": 0
+        }
+    },
+    "Renata": {
+        "name": "Renata Glasc",
+        "hp": {
+            "base": 545,
+            "growth": 94
+        },
+        "armor": {
+            "base": 27,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Renekton": {
+        "name": "Renekton",
+        "hp": {
+            "base": 660,
+            "growth": 111
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.665,
+            "growth": 2.75
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Rengar": {
+        "name": "Rengar",
+        "hp": {
+            "base": 590,
+            "growth": 104
+        },
+        "armor": {
+            "base": 34,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.667,
+            "growth": 3
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Riven": {
+        "name": "Riven",
+        "hp": {
+            "base": 630,
+            "growth": 100
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.4
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Rumble": {
+        "name": "Rumble",
+        "hp": {
+            "base": 640,
+            "growth": 105
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 28,
+            "growth": 1.55
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 1.85
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Ryze": {
+        "name": "Ryze",
+        "hp": {
+            "base": 645,
+            "growth": 124
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Samira": {
+        "name": "Samira",
+        "hp": {
+            "base": 630,
+            "growth": 108
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.3
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Sejuani": {
+        "name": "Sejuani",
+        "hp": {
+            "base": 630,
+            "growth": 114
+        },
+        "armor": {
+            "base": 34,
+            "growth": 5.45
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.688,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Senna": {
+        "name": "Senna",
+        "hp": {
+            "base": 530,
+            "growth": 89
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.6
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Seraphine": {
+        "name": "Seraphine",
+        "hp": {
+            "base": 570,
+            "growth": 95
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.669,
+            "growth": 2
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Sett": {
+        "name": "Sett",
+        "hp": {
+            "base": 670,
+            "growth": 114
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.75
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Shaco": {
+        "name": "Shaco",
+        "hp": {
+            "base": 630,
+            "growth": 99
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.694,
+            "growth": 3
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Shen": {
+        "name": "Shen",
+        "hp": {
+            "base": 610,
+            "growth": 99
+        },
+        "armor": {
+            "base": 34,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.751,
+            "growth": 3
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Shyvana": {
+        "name": "Shyvana",
+        "hp": {
+            "base": 625,
+            "growth": 95
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 2
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Singed": {
+        "name": "Singed",
+        "hp": {
+            "base": 650,
+            "growth": 96
+        },
+        "armor": {
+            "base": 34,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.7,
+            "growth": 1.9
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Sion": {
+        "name": "Sion",
+        "hp": {
+            "base": 655,
+            "growth": 87
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.679,
+            "growth": 1.3
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Sivir": {
+        "name": "Sivir",
+        "hp": {
+            "base": 600,
+            "growth": 104
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1.6
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Skarner": {
+        "name": "Skarner",
+        "hp": {
+            "base": 630,
+            "growth": 110
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Smolder": {
+        "name": "Smolder",
+        "hp": {
+            "base": 575,
+            "growth": 100
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 4
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Sona": {
+        "name": "Sona",
+        "hp": {
+            "base": 550,
+            "growth": 91
+        },
+        "armor": {
+            "base": 26,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 2.3
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Soraka": {
+        "name": "Soraka",
+        "hp": {
+            "base": 605,
+            "growth": 88
+        },
+        "armor": {
+            "base": 32,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.14
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Swain": {
+        "name": "Swain",
+        "hp": {
+            "base": 595,
+            "growth": 99
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 31,
+            "growth": 1.55
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Sylas": {
+        "name": "Sylas",
+        "hp": {
+            "base": 600,
+            "growth": 122
+        },
+        "armor": {
+            "base": 29,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.55
+        },
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.645,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Syndra": {
+        "name": "Syndra",
+        "hp": {
+            "base": 563,
+            "growth": 100
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "TahmKench": {
+        "name": "Tahm Kench",
+        "hp": {
+            "base": 640,
+            "growth": 103
+        },
+        "armor": {
+            "base": 39,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Taliyah": {
+        "name": "Taliyah",
+        "hp": {
+            "base": 550,
+            "growth": 104
+        },
+        "armor": {
+            "base": 18,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 28,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 1.36
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Talon": {
+        "name": "Talon",
+        "hp": {
+            "base": 658,
+            "growth": 109
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 36,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.9
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Taric": {
+        "name": "Taric",
+        "hp": {
+            "base": 645,
+            "growth": 99
+        },
+        "armor": {
+            "base": 40,
+            "growth": 4.3
+        },
+        "mr": {
+            "base": 28,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Teemo": {
+        "name": "Teemo",
+        "hp": {
+            "base": 615,
+            "growth": 104
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.69,
+            "growth": 3.38
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Thresh": {
+        "name": "Thresh",
+        "hp": {
+            "base": 620,
+            "growth": 120
+        },
+        "armor": {
+            "base": 33,
+            "growth": 0
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.55
+        },
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Tristana": {
+        "name": "Tristana",
+        "hp": {
+            "base": 640,
+            "growth": 102
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4
+        },
+        "mr": {
+            "base": 28,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.656,
+            "growth": 1.5
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Trundle": {
+        "name": "Trundle",
+        "hp": {
+            "base": 650,
+            "growth": 110
+        },
+        "armor": {
+            "base": 37,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.67,
+            "growth": 2.9
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Tryndamere": {
+        "name": "Tryndamere",
+        "hp": {
+            "base": 696,
+            "growth": 108
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.8
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.67,
+            "growth": 3.4
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "TwistedFate": {
+        "name": "Twisted Fate",
+        "hp": {
+            "base": 604,
+            "growth": 108
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.35
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Twitch": {
+        "name": "Twitch",
+        "hp": {
+            "base": 630,
+            "growth": 98
+        },
+        "armor": {
+            "base": 27,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.679,
+            "growth": 3
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Udyr": {
+        "name": "Udyr",
+        "hp": {
+            "base": 664,
+            "growth": 92
+        },
+        "armor": {
+            "base": 31,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.65,
+            "growth": 3
+        },
+        "ms": {
+            "base": 350,
+            "growth": 0
+        }
+    },
+    "Urgot": {
+        "name": "Urgot",
+        "hp": {
+            "base": 655,
+            "growth": 102
+        },
+        "armor": {
+            "base": 36,
+            "growth": 5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.75
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Varus": {
+        "name": "Varus",
+        "hp": {
+            "base": 600,
+            "growth": 105
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Vayne": {
+        "name": "Vayne",
+        "hp": {
+            "base": 550,
+            "growth": 103
+        },
+        "armor": {
+            "base": 23,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.3
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Veigar": {
+        "name": "Veigar",
+        "hp": {
+            "base": 580,
+            "growth": 108
+        },
+        "armor": {
+            "base": 18,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.24
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Velkoz": {
+        "name": "Vel'Koz",
+        "hp": {
+            "base": 590,
+            "growth": 102
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.643,
+            "growth": 1.59
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Vex": {
+        "name": "Vex",
+        "hp": {
+            "base": 590,
+            "growth": 104
+        },
+        "armor": {
+            "base": 23,
+            "growth": 4.45
+        },
+        "mr": {
+            "base": 28,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.669,
+            "growth": 1
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Vi": {
+        "name": "Vi",
+        "hp": {
+            "base": 655,
+            "growth": 105
+        },
+        "armor": {
+            "base": 30,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.644,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Viego": {
+        "name": "Viego",
+        "hp": {
+            "base": 630,
+            "growth": 109
+        },
+        "armor": {
+            "base": 34,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.75
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Viktor": {
+        "name": "Viktor",
+        "hp": {
+            "base": 600,
+            "growth": 100
+        },
+        "armor": {
+            "base": 23,
+            "growth": 4.4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Vladimir": {
+        "name": "Vladimir",
+        "hp": {
+            "base": 600,
+            "growth": 110
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Volibear": {
+        "name": "Volibear",
+        "hp": {
+            "base": 650,
+            "growth": 104
+        },
+        "armor": {
+            "base": 35,
+            "growth": 5.2
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Warwick": {
+        "name": "Warwick",
+        "hp": {
+            "base": 620,
+            "growth": 99
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.4
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.638,
+            "growth": 2
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Xayah": {
+        "name": "Xayah",
+        "hp": {
+            "base": 630,
+            "growth": 107
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 3.9
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Xerath": {
+        "name": "Xerath",
+        "hp": {
+            "base": 596,
+            "growth": 106
+        },
+        "armor": {
+            "base": 22,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 1.36
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "XinZhao": {
+        "name": "Xin Zhao",
+        "hp": {
+            "base": 620,
+            "growth": 106
+        },
+        "armor": {
+            "base": 35,
+            "growth": 4.4
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.645,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Yasuo": {
+        "name": "Yasuo",
+        "hp": {
+            "base": 590,
+            "growth": 110
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.697,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Yone": {
+        "name": "Yone",
+        "hp": {
+            "base": 620,
+            "growth": 105
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.6
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 3.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Yorick": {
+        "name": "Yorick",
+        "hp": {
+            "base": 650,
+            "growth": 114
+        },
+        "armor": {
+            "base": 36,
+            "growth": 4.5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Yunara": {
+        "name": "Yunara",
+        "hp": {
+            "base": 590,
+            "growth": 110
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4.4
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.65,
+            "growth": 2
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Yuumi": {
+        "name": "Yuumi",
+        "hp": {
+            "base": 500,
+            "growth": 69
+        },
+        "armor": {
+            "base": 25,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 25,
+            "growth": 1.1
+        },
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 1
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Zaahen": {
+        "name": "Zaahen",
+        "hp": {
+            "base": 640,
+            "growth": 114
+        },
+        "armor": {
+            "base": 36,
+            "growth": 5
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.625,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Zac": {
+        "name": "Zac",
+        "hp": {
+            "base": 685,
+            "growth": 109
+        },
+        "armor": {
+            "base": 33,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 32,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.736,
+            "growth": 1.6
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Zed": {
+        "name": "Zed",
+        "hp": {
+            "base": 654,
+            "growth": 99
+        },
+        "armor": {
+            "base": 32,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 29,
+            "growth": 2.05
+        },
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.651,
+            "growth": 3.3
+        },
+        "ms": {
+            "base": 345,
+            "growth": 0
+        }
+    },
+    "Zeri": {
+        "name": "Zeri",
+        "hp": {
+            "base": 600,
+            "growth": 110
+        },
+        "armor": {
+            "base": 24,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2
+        },
+        "ms": {
+            "base": 330,
+            "growth": 0
+        }
+    },
+    "Ziggs": {
+        "name": "Ziggs",
+        "hp": {
+            "base": 606,
+            "growth": 106
+        },
+        "armor": {
+            "base": 21,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.656,
+            "growth": 2
+        },
+        "ms": {
+            "base": 325,
+            "growth": 0
+        }
+    },
+    "Zilean": {
+        "name": "Zilean",
+        "hp": {
+            "base": 574,
+            "growth": 96
+        },
+        "armor": {
+            "base": 24,
+            "growth": 5
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.13
+        },
+        "ms": {
+            "base": 335,
+            "growth": 0
+        }
+    },
+    "Zoe": {
+        "name": "Zoe",
+        "hp": {
+            "base": 630,
+            "growth": 106
+        },
+        "armor": {
+            "base": 21,
+            "growth": 4.7
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.658,
+            "growth": 2.5
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    },
+    "Zyra": {
+        "name": "Zyra",
+        "hp": {
+            "base": 574,
+            "growth": 93
+        },
+        "armor": {
+            "base": 29,
+            "growth": 4.2
+        },
+        "mr": {
+            "base": 30,
+            "growth": 1.3
+        },
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "as": {
+            "base": 0.681,
+            "growth": 2.11
+        },
+        "ms": {
+            "base": 340,
+            "growth": 0
+        }
+    }
+}
