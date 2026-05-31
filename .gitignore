@@ -23,12 +23,38 @@ data/*
 !data/valid_targets.json
 !data/wave_rules.json
 !data/yorick_vocab.json
+!data/yorick_matchups.json
+!data/top_lane_guide.json
+!data/pro_benchmarks.json
 
 # Ensure the massive training folders stay ignored
 data/matches/
 data/timelines/
 data/yorick_games/
 data/*.jsonl
+data/player_reservoir.json
+data/hf_target_matches.json
+data/scraper_checkpoint.json
+
+# Local Helper Files
+ids_to_skip.txt
+get_size.py
+PyWhatKit_DB.txt
+analyze_logs.py
+analyze_yorick.py
+check_boots.py
+check_hallucinations.py
+check_late.py
+check_strats.py
+riot_peek.txt
+hf_peek.txt
+hf_progress.txt
+hunter_peek.txt
+hunter_peek_now.txt
+hf_peek_now.txt
+hf_peek_2.txt
+hf_peek_3.txt
+hf_peek_4.txt
 
 # Python artifacts
 __pycache__/

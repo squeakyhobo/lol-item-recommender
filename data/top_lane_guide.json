@@ -1,0 +1,36 @@
+{
+  "jungle_tracking": [
+    {
+      "time": "3:30",
+      "event": "Full Clear Gank",
+      "advice": "Enemy jungler likely finishing their first full clear. Expect a gank from the river/tri-brush. Ward now."
+    },
+    {
+      "time": "5:00",
+      "event": "Void Grubs Spawn",
+      "advice": "First Grubs are active. If you have a lead, shove wave and help your jungler secure them. They are Yorick's best friend."
+    }
+  ],
+  "objective_priority": [
+    {
+      "scenario": "Winning Lane",
+      "priority": "Plates > Grubs > Herald",
+      "advice": "Stay for Turret Plates until 14:00. Yorick takes towers faster than anyone. Only leave for Grubs if your jungler is being invaded."
+    },
+    {
+      "scenario": "Losing Lane",
+      "priority": "Survival > XP > Gold",
+      "advice": "Do not die for a CS. Use E to farm from distance. Give up the tier 1 turret if it prevents a dive."
+    }
+  ],
+  "matchup_strategy": [
+    {
+      "archetype": "Ranged (Vayne/Quinn)",
+      "advice": "Stay healthy until Level 3. Use your W (Cage) to force their Dash. If they dash, hit E and all-in. They are squishy."
+    },
+    {
+      "archetype": "Bullies (Darius/Renekton)",
+      "advice": "Never trade without 4 ghouls. Respect their 'Zone of Death'. You outscale them after 1 item."
+    }
+  ]
+}

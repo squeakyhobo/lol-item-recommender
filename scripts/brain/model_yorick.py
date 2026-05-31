@@ -4,11 +4,6 @@ import torch.nn.functional as F
 import math
 
 class PositionalEncoding(nn.Module):
-    """
-    Standard Transformer Positional Encoding.
-    Since we look at a sequence of 5 frames, we need to tell the AI 
-    which frame came first and which came last.
-    """
     def __init__(self, d_model, max_len=10):
         super(PositionalEncoding, self).__init__()
         pe = torch.zeros(max_len, d_model)
@@ -23,18 +18,16 @@ class PositionalEncoding(nn.Module):
 
 class YorickBrain(nn.Module):
     """
-    The Maiden's Brain (V3): Multi-Task Learning (MTL) Transformer.
-    This model simultaneously predicts the broad strategic cluster AND the specific item ID.
-    The easier cluster task helps stabilize and guide the harder specific item task.
+    The Maiden's Brain (V4): Matchup-Aware Multi-Task Learning.
+    This model explicitly weights the direct lane opponent's DNA heavier
+    than the other 4 enemies using a dedicated Matchup Head.
     """
-    def __init__(self, num_clusters=15, num_items=528, dna_dim=9, d_model=256, nhead=4, num_layers=4):
+    def __init__(self, num_clusters=15, num_items=80, dna_dim=9, d_model=256, nhead=4, num_layers=4):
         super(YorickBrain, self).__init__()
         self.d_model = d_model
-        
-        # Rune Embedding: Maps 15 possible keystones into the high-dimensional brain space.
         self.rune_embedding = nn.Embedding(num_embeddings=15, embedding_dim=d_model)
 
-        # 1. Projections: Convert raw game data into a format the Transformer understands.
+        # 1. Player & Enemy Projections
         self.numeric_projection = nn.Sequential(
             nn.Linear(5, d_model // 2),
             nn.LayerNorm(d_model // 2),
@@ -45,9 +38,14 @@ class YorickBrain(nn.Module):
             nn.LayerNorm(d_model // 2),
             nn.ReLU()
         )
-        
-        # 2. Enemy Projection: Processes the combined 'Total Threat DNA' of all 5 enemies.
         self.enemy_projection = nn.Sequential(
+            nn.Linear(dna_dim, d_model),
+            nn.LayerNorm(d_model),
+            nn.ReLU()
+        )
+        
+        # 2. NEW: Lane Opponent Projection (High Weight)
+        self.lane_projection = nn.Sequential(
             nn.Linear(dna_dim, d_model),
             nn.LayerNorm(d_model),
             nn.ReLU()
@@ -55,54 +53,49 @@ class YorickBrain(nn.Module):
         
         self.pos_encoder = PositionalEncoding(d_model)
         
-        # 3. Transformer Encoder: The 'Shared Backbone' of the Multi-Task network.
         encoder_layer = nn.TransformerEncoderLayer(
             d_model=d_model, nhead=nhead, dim_feedforward=1024, dropout=0.2, batch_first=True
         )
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
         
-        # 4. Multi-Task Heads
-        # Head 1: The Strategist (Predicts Cluster)
+        # 3. Heads (Merged dimensions: Backbone + Runes + Lane Opponent)
+        # We concat: [Backbone Output (d_model)] + [Rune Emb (d_model)] + [Lane Emb (d_model)]
         self.cluster_head = nn.Sequential(
-            nn.Linear(d_model * 2, d_model), 
+            nn.Linear(d_model * 3, d_model), 
             nn.ReLU(),
             nn.Dropout(0.2),
             nn.Linear(d_model, num_clusters)
         )
         
-        # Head 2: The Tactician (Predicts Exact Item)
         self.item_head = nn.Sequential(
-            nn.Linear(d_model * 2, d_model),
+            nn.Linear(d_model * 3, d_model),
             nn.ReLU(),
             nn.Dropout(0.2),
             nn.Linear(d_model, num_items)
         )
 
-    def forward(self, p_num, p_dna, e_dna, e_arch, rune_idx, item_mask=None):
-        # A. Embed Rune
+    def forward(self, p_num, p_dna, e_dna, lane_dna, rune_idx, item_mask=None):
+        # A. Embed Context
         rune_emb = self.rune_embedding(rune_idx)
-        if len(rune_emb.shape) == 3:
-            rune_emb = rune_emb.squeeze(1)
+        if len(rune_emb.shape) == 3: rune_emb = rune_emb.squeeze(1)
         
-        # B. Combine player features
-        p_emb = torch.cat([self.numeric_projection(p_num), 
-                           self.dna_projection(p_dna)], dim=2)
+        lane_emb = self.lane_projection(lane_dna) # [batch, d_model]
         
-        # C. Process enemy features
+        # B. Backbone Processing
+        p_emb = torch.cat([self.numeric_projection(p_num), self.dna_projection(p_dna)], dim=2)
         e_emb = self.enemy_projection(e_dna) 
         
-        # D. Sequence Assembly
         sequence = torch.cat([p_emb, e_emb], dim=1) 
         sequence = self.pos_encoder(sequence)
-        
-        # E. Attention processing
         transformed = self.transformer(sequence)
         
-        # F. Strategic Merge
-        final_state = transformed[:, 4, :] 
-        combined_state = torch.cat([final_state, rune_emb], dim=1)
+        # C. Feature Fusion
+        final_backbone_state = transformed[:, 4, :] # Last player frame
         
-        # G. Multi-Task Predictions
+        # Merge Backbone + Strategic Bias (Runes) + Tactical Bias (Matchup)
+        combined_state = torch.cat([final_backbone_state, rune_emb, lane_emb], dim=1)
+        
+        # D. Output
         cluster_logits = self.cluster_head(combined_state)
         item_logits = self.item_head(combined_state)
         

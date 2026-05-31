@@ -20,10 +20,6 @@ class YorickPreprocessor:
             self.valid_targets = set(json.load(f))
 
     def get_winning_team(self, timeline):
-        """
-        We only want the AI to learn from WINNING strategies.
-        If Yorick loses, we throw the game away.
-        """
         frames = timeline.get("info", {}).get("frames", [])
         if not frames: return None
         for e in frames[-1].get("events", []):
@@ -31,10 +27,6 @@ class YorickPreprocessor:
         return None
 
     def get_champion_map(self, timeline):
-        """
-        The Riot API timeline hides champion names. We use kill events 
-        to reverse-engineer which player ID corresponds to which champion.
-        """
         champ_map = {}
         frames = timeline.get("info", {}).get("frames", [])
         for frame in frames:
@@ -49,10 +41,6 @@ class YorickPreprocessor:
         return champ_map
 
     def process_match(self, match_id):
-        """
-        The core engine. It plays through the timeline minute-by-minute.
-        Every time Yorick buys an important item, it takes a "Snapshot" of the last 5 minutes.
-        """
         m_path = os.path.join(MATCH_DIR, f"{match_id}.json")
         t_path = os.path.join(TIMELINE_DIR, f"{match_id}.json")
         try:
@@ -63,7 +51,6 @@ class YorickPreprocessor:
         winning_team = self.get_winning_team(timeline_data)
         if not winning_team: return []
 
-        # Find Yorick and extract his starting Rune (Keystone)
         yorick_id = None
         yorick_team = None
         keystone_id = 0
@@ -78,60 +65,53 @@ class YorickPreprocessor:
                         keystone_id = s.get("selections", [{}])[0].get("perk", 0)
                 break
                 
-        # If Yorick didn't win or wasn't Top, skip this match
         if not yorick_id or yorick_team != winning_team:
             return []
 
         champ_map = self.get_champion_map(timeline_data)
         enemy_team = 200 if yorick_team == 100 else 100
+        enemy_roles = {p.get("participantId"): p.get("teamPosition") for p in participants if p.get("teamId") == enemy_team}
 
         snapshots = []
         frames = timeline_data.get("info", {}).get("frames", [])
-        
-        # Track inventories for ALL 10 players to calculate 'Total Enemy DNA'
         inventories = {i: [] for i in range(1, 11)}
-        
         frame_history = []
         enemy_kills = 0
 
         for frame_idx, frame in enumerate(frames):
-            # 1. Update Inventories based on events in this frame (buys, sells, undos)
             for event in frame.get("events", []):
                 p_id = event.get("participantId")
                 if p_id and 1 <= p_id <= 10:
                     if event.get("type") == "ITEM_PURCHASED":
                         inventories[p_id].append(event.get("itemId"))
-                    elif event.get("type") == "ITEM_SOLD":
-                        if event.get("itemId") in inventories[p_id]:
-                            inventories[p_id].remove(event.get("itemId"))
-                    elif event.get("type") == "ITEM_DESTROYED":
+                    elif event.get("type") in ["ITEM_SOLD", "ITEM_DESTROYED"]:
                         if event.get("itemId") in inventories[p_id]:
                             inventories[p_id].remove(event.get("itemId"))
                     elif event.get("type") == "ITEM_UNDO":
                         if inventories[p_id]: inventories[p_id].pop()
 
-                # Track global kill pressure (are we winning or losing?)
                 if event.get("type") == "CHAMPION_KILL":
                     victim_team = 100 if event.get("victimId", 0) <= 5 else 200
                     if victim_team == yorick_team: enemy_kills += 1
 
             p_frame = frame.get("participantFrames", {}).get(str(yorick_id), {})
             
-            # 2. Build the Enemy State Array
+            # Matchup-Aware Enemy State
             enemy_states = []
             for i in range(1, 11):
                 team = 100 if i <= 5 else 200
                 if team == enemy_team:
                     ef = frame.get("participantFrames", {}).get(str(i), {})
+                    role = enemy_roles.get(i, "Unknown")
                     enemy_states.append({
                         "championName": champ_map.get(i, "Unknown"),
                         "gold": ef.get("totalGold", 0),
                         "level": ef.get("level", 1),
-                        "inventory": list(inventories[i]), # SAVE ENEMY ITEMS FOR DNA!
-                        "archetype": self.archetypes.get(champ_map.get(i, ""), 0)
+                        "inventory": list(inventories[i]),
+                        "archetype": self.archetypes.get(champ_map.get(i, ""), 0),
+                        "is_lane_opponent": (role == "TOP")
                     })
 
-            # 3. Compile the current frame
             state = {
                 "championName": "Yorick",
                 "keystone": keystone_id,
@@ -148,8 +128,6 @@ class YorickPreprocessor:
             frame_history.append(state)
             if len(frame_history) > self.seq_len: frame_history.pop(0)
             
-            # 4. Check if Yorick bought a valid target item in this frame. 
-            # If yes, save the last 5 minutes of history as a "Snapshot Lesson" for the AI.
             for event in frame.get("events", []):
                 if event.get("type") == "ITEM_PURCHASED" and event.get("participantId") == yorick_id:
                     item_id = event.get("itemId")
@@ -164,7 +142,7 @@ class YorickPreprocessor:
     def run(self):
         all_snapshots = []
         files = [f for f in os.listdir(MATCH_DIR) if f.endswith(".json")]
-        print(f"[*] YORICK PREPROCESSOR: Extracting Runes and Timelines from {len(files)} matches...")
+        print(f"[*] YORICK PREPROCESSOR: Processing {len(files)} matches for V4 Matchup-Awareness...")
         
         for f in files:
             all_snapshots.extend(self.process_match(f.replace(".json", "")))
@@ -172,7 +150,7 @@ class YorickPreprocessor:
         output_path = os.path.join(DATA_DIR, "yorick_episodes.json")
         with open(output_path, "w") as out:
             json.dump(all_snapshots, out, indent=4)
-        print(f"[*] YORICK PREPROCESSING COMPLETE: Created {len(all_snapshots)} Rune-Aware snapshots.")
+        print(f"[*] PREPROCESSING COMPLETE: Created {len(all_snapshots)} snapshots.")
 
 if __name__ == "__main__":
     YorickPreprocessor().run()
