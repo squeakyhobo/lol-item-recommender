@@ -1,4 +1,5 @@
-# 🧟 The Maiden's Brain (LTA Goliath V6.0)
+
+
 
 > **Made with Gemini**
 
