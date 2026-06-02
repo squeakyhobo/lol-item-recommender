@@ -60,3 +60,5 @@ hf_peek_4.txt
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+tests/
+venv_win/

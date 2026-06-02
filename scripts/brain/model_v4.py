@@ -23,9 +23,9 @@ class GoliathV4(nn.Module):
         
         self.d_model = d_model
         
-        # 1. Projections with Non-Linearity to fix 'Dead Brain'
+        
         self.numeric_projection = nn.Sequential(
-            nn.Linear(5, d_model // 2),
+            nn.Linear(6, d_model // 2),
             nn.LayerNorm(d_model // 2),
             nn.ReLU()
         )

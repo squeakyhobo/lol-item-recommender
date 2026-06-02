@@ -76,7 +76,7 @@ class YorickDataset(Dataset):
         p_num = []
         p_dna = []
         for f in seq:
-            p_num.append([f["gold"]/5000.0, f["total_gold"]/GOLD_SCALE, f["level"]/LVL_SCALE, f["minute"]/MIN_SCALE, f.get("kill_pressure", 0)/10.0])
+            p_num.append([f["gold"]/5000.0, f["total_gold"]/GOLD_SCALE, f["level"]/LVL_SCALE, f["minute"]/MIN_SCALE, f.get("kill_pressure", 0)/10.0,f["gold_diff"]/5000.0])
             p_dna.append(self.calculate_total_dna("Yorick", f["level"], f["inventory"]))
             
         # 2. Enemy Team DNA (Split Matchup from Others)
