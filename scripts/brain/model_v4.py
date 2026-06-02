@@ -1,4 +1,3 @@
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -23,32 +22,35 @@ class GoliathV4(nn.Module):
         
         self.d_model = d_model
         
-        
+        # 1. Projections with AUTOMATIC NORMALIZATION (LayerNorm)
+        # We now accept 6 numeric features (including Gold Diff)
         self.numeric_projection = nn.Sequential(
             nn.Linear(6, d_model // 2),
-            nn.LayerNorm(d_model // 2),
-            nn.ReLU()
+            nn.LayerNorm(d_model // 2), # THE SELF-GRADING ENGINE
+            nn.ReLU(),
+            nn.Dropout(0.1)
         )
+        
         self.dna_projection = nn.Sequential(
             nn.Linear(dna_dim, d_model // 2),
             nn.LayerNorm(d_model // 2),
-            nn.ReLU()
+            nn.ReLU(),
+            nn.Dropout(0.1)
         )
+        
+        # Enemy projection now handles DNA too! (Architectural Upgrade)
         self.enemy_projection = nn.Sequential(
-            nn.Linear(5, d_model),
+            nn.Linear(dna_dim + 5, d_model), # 5 numerics + DNA
             nn.LayerNorm(d_model),
-            nn.ReLU()
+            nn.ReLU(),
+            nn.Dropout(0.1)
         )
         
         self.pos_encoder = PositionalEncoding(d_model)
         
-        # 2. Transformer (Smaller for 1000 samples to prevent overfitting)
+        # 2. Transformer
         encoder_layer = nn.TransformerEncoderLayer(
-            d_model=d_model, 
-            nhead=nhead, 
-            dim_feedforward=1024, 
-            dropout=0.2, 
-            batch_first=True
+            d_model=d_model, nhead=nhead, dim_feedforward=1024, dropout=0.2, batch_first=True
         )
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
         
@@ -60,27 +62,23 @@ class GoliathV4(nn.Module):
             nn.Linear(d_model // 2, item_vocab_size)
         )
 
-    def forward(self, player_seq_numeric, player_seq_dna, enemy_numeric, enemy_archetypes, mask=None):
-        # player_seq_numeric: [batch, 5, 5]
-        # player_seq_dna: [batch, 5, 15]
+    def forward(self, p_num, p_dna, e_num, e_dna, mask=None):
+        # Fusion logic
+        p_emb = torch.cat([self.numeric_projection(p_num), 
+                           self.dna_projection(p_dna)], dim=2)
         
-        # Player embedding
-        p_emb = torch.cat([self.numeric_projection(player_seq_numeric), 
-                           self.dna_projection(player_seq_dna)], dim=2)
+        # Enemy Token Fusion (Numeric + DNA)
+        e_emb = self.enemy_projection(torch.cat([e_num, e_dna], dim=2))
         
-        # Enemy embedding
-        e_emb = self.enemy_projection(enemy_numeric) # [batch, 5, d_model]
-        
-        sequence = torch.cat([p_emb, e_emb], dim=1) # [batch, 10, d_model]
+        sequence = torch.cat([p_emb, e_emb], dim=1) 
         sequence = self.pos_encoder(sequence)
         
         transformed = self.transformer(sequence)
         
-        # Use the final player state for prediction
+        # Pull prediction from the current Player state (Index 4)
         logits = self.output_head(transformed[:, 4, :])
         
         if mask is not None:
             logits = logits.masked_fill(mask.bool(), -1e9)
             
         return logits
-
