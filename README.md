@@ -15,5 +15,9 @@ notable inputs /features :
 - what main rune ur using 
 - current inv
 - ur top lane matchup archetype 
+- number to represent if ur behind or snowballing to better pick items in real time
+
+
+overlay to help pick items for yorick top
 
 
