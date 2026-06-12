@@ -1,8 +1,12 @@
 import os
 import json
+import sys
 
-BASE_DIR = r"C:\Users\Lucas\Desktop\LTA"
-DATA_DIR = os.path.join(BASE_DIR, "data")
+# Calculate root directory relative to this file
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.join(BASE_DIR, "src", "core"))
+import config
+DATA_DIR = config.DATA_DIR
 
 def build_vocab():
     match_dir = os.path.join(DATA_DIR, "yorick_games", "timelines")

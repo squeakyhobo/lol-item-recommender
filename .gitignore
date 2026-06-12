@@ -1,64 +1,38 @@
-# API Keys
+
 .env
+*.env
+.env.local
 
-# Logs
-logs/
-
-# Model Weights
-models/*.pth
-models/*.pt
-
-# --- DATA FOLDER SAFETY ---
-# Ignore everything in data by default
-data/*
-
-# Specifically whitelist ONLY the configuration files needed for the HUD to run
-!data/archetypes.json
-!data/champion_dna.json
-!data/expert_config.json
-!data/item_clusters.json
-!data/item_dna.json
-!data/item_map.json
-!data/item_names.json
-!data/valid_targets.json
-!data/wave_rules.json
-!data/yorick_vocab.json
-!data/yorick_matchups.json
-!data/top_lane_guide.json
-!data/pro_benchmarks.json
-
-# Ensure the massive training folders stay ignored
-data/matches/
-data/timelines/
-data/yorick_games/
-data/*.jsonl
-data/player_reservoir.json
-data/hf_target_matches.json
-data/scraper_checkpoint.json
-
-# Local Helper Files
-ids_to_skip.txt
-get_size.py
-PyWhatKit_DB.txt
-analyze_logs.py
-analyze_yorick.py
-check_boots.py
-check_hallucinations.py
-check_late.py
-check_strats.py
-riot_peek.txt
-hf_peek.txt
-hf_progress.txt
-hunter_peek.txt
-hunter_peek_now.txt
-hf_peek_now.txt
-hf_peek_2.txt
-hf_peek_3.txt
-hf_peek_4.txt
-
-# Python artifacts
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-tests/
-venv_win/
+*.py[cod]
+*$py.class
+
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+data/
+!data/.keep
+
+models/
+!models/.keep
+
+
+logs/
+debug/*.json
+debug/*.jsonl
+*.log
+live_api_dump.json
+
+
+.pytest_cache/
+coverage.xml
+
+
+venv/
+env/
+.venv/
+GEMINI.md

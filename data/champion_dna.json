@@ -1,6 +1,15 @@
 {
-    "Aatrox": {
+    "266": {
         "name": "Aatrox",
+        "id": 266,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 114
@@ -13,10 +22,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.651,
             "growth": 2.5
@@ -24,10 +29,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ahri": {
+    "103": {
         "name": "Ahri",
+        "id": 103,
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 104
@@ -40,10 +62,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 53,
-            "growth": 0
-        },
         "as": {
             "base": 0.668,
             "growth": 2.2
@@ -51,10 +69,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Akali": {
+    "84": {
         "name": "Akali",
+        "id": 84,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 119
@@ -67,10 +102,6 @@
             "base": 37,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.2
@@ -78,10 +109,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Akshan": {
+    "166": {
         "name": "Akshan",
+        "id": 166,
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 107
@@ -94,10 +142,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 52,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 4
@@ -105,10 +149,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Alistar": {
+    "12": {
         "name": "Alistar",
+        "id": 12,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 685,
             "growth": 120
@@ -121,10 +182,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.125
@@ -132,10 +189,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ambessa": {
+    "799": {
         "name": "Ambessa",
+        "id": 799,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 110
@@ -148,10 +222,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.5
@@ -159,10 +229,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Amumu": {
+    "32": {
         "name": "Amumu",
+        "id": 32,
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 685,
             "growth": 94
@@ -175,10 +262,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 57,
-            "growth": 0
-        },
         "as": {
             "base": 0.736,
             "growth": 2.18
@@ -186,10 +269,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Anivia": {
+    "34": {
         "name": "Anivia",
+        "id": 34,
+        "ad": {
+            "base": 51,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 550,
             "growth": 92
@@ -202,10 +302,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 51,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 1.68
@@ -213,10 +309,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Annie": {
+    "1": {
         "name": "Annie",
+        "id": 1,
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 560,
             "growth": 96
@@ -229,10 +342,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 50,
-            "growth": 0
-        },
         "as": {
             "base": 0.61,
             "growth": 1.36
@@ -240,10 +349,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Aphelios": {
+    "523": {
         "name": "Aphelios",
+        "id": 523,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 102
@@ -256,10 +382,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.665,
             "growth": 2.1
@@ -267,10 +389,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ashe": {
+    "22": {
         "name": "Ashe",
+        "id": 22,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 101
@@ -283,10 +422,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3
@@ -294,10 +429,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "AurelionSol": {
+    "136": {
         "name": "Aurelion Sol",
+        "id": 136,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 90
@@ -310,10 +462,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.5
@@ -321,10 +469,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Aurora": {
+    "893": {
         "name": "Aurora",
+        "id": 893,
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 607,
             "growth": 110
@@ -337,10 +502,6 @@
             "base": 32,
             "growth": 1.3
         },
-        "ad": {
-            "base": 53,
-            "growth": 0
-        },
         "as": {
             "base": 0.668,
             "growth": 2
@@ -348,10 +509,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Azir": {
+    "268": {
         "name": "Azir",
+        "id": 268,
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 575,
             "growth": 108
@@ -364,10 +542,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 56,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 5
@@ -375,10 +549,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Bard": {
+    "432": {
         "name": "Bard",
+        "id": 432,
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 103
@@ -391,10 +582,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 52,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2
@@ -402,10 +589,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Belveth": {
+    "200": {
         "name": "Bel'Veth",
+        "id": 200,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 105
@@ -418,10 +622,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.85,
             "growth": 0
@@ -429,10 +629,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Blitzcrank": {
+    "53": {
         "name": "Blitzcrank",
+        "id": 53,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 109
@@ -445,10 +662,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.13
@@ -456,10 +669,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Brand": {
+    "63": {
         "name": "Brand",
+        "id": 63,
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 570,
             "growth": 105
@@ -472,10 +702,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 57,
-            "growth": 0
-        },
         "as": {
             "base": 0.681,
             "growth": 2
@@ -483,10 +709,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Braum": {
+    "201": {
         "name": "Braum",
+        "id": 201,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 112
@@ -499,10 +742,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 3.5
@@ -510,10 +749,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Briar": {
+    "233": {
         "name": "Briar",
+        "id": 233,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 625,
             "growth": 95
@@ -526,10 +782,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 2
@@ -537,10 +789,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Caitlyn": {
+    "51": {
         "name": "Caitlyn",
+        "id": 51,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 580,
             "growth": 107
@@ -553,10 +822,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.681,
             "growth": 4
@@ -564,10 +829,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Camille": {
+    "164": {
         "name": "Camille",
+        "id": 164,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 99
@@ -580,10 +862,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 2.5
@@ -591,10 +869,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Cassiopeia": {
+    "69": {
         "name": "Cassiopeia",
+        "id": 69,
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 104
@@ -607,10 +902,6 @@
             "base": 32,
             "growth": 1.3
         },
-        "ad": {
-            "base": 53,
-            "growth": 0
-        },
         "as": {
             "base": 0.647,
             "growth": 1.5
@@ -618,10 +909,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Chogath": {
+    "31": {
         "name": "Cho'Gath",
+        "id": 31,
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 644,
             "growth": 94
@@ -634,10 +942,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 69,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 1.44
@@ -645,10 +949,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Corki": {
+    "42": {
         "name": "Corki",
+        "id": 42,
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 100
@@ -661,10 +982,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 52,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 2.8
@@ -672,10 +989,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Darius": {
+    "122": {
         "name": "Darius",
+        "id": 122,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 652,
             "growth": 114
@@ -688,10 +1022,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1
@@ -699,10 +1029,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Diana": {
+    "131": {
         "name": "Diana",
+        "id": 131,
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 109
@@ -715,10 +1062,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 57,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -726,10 +1069,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Draven": {
+    "119": {
         "name": "Draven",
+        "id": 119,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 675,
             "growth": 104
@@ -742,10 +1102,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.679,
             "growth": 2.7
@@ -753,10 +1109,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "DrMundo": {
+    "36": {
         "name": "Dr. Mundo",
+        "id": 36,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 103
@@ -769,10 +1142,6 @@
             "base": 29,
             "growth": 2.3
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.67,
             "growth": 3.3
@@ -780,10 +1149,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ekko": {
+    "245": {
         "name": "Ekko",
+        "id": 245,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 99
@@ -796,10 +1182,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.688,
             "growth": 3.3
@@ -807,10 +1189,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Elise": {
+    "60": {
         "name": "Elise",
+        "id": 60,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 109
@@ -823,10 +1222,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.75
@@ -834,10 +1229,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Evelynn": {
+    "28": {
         "name": "Evelynn",
+        "id": 28,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 642,
             "growth": 98
@@ -850,10 +1262,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.667,
             "growth": 2.1
@@ -861,10 +1269,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ezreal": {
+    "81": {
         "name": "Ezreal",
+        "id": 81,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 102
@@ -877,10 +1302,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.5
@@ -888,10 +1309,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Fiddlesticks": {
+    "9": {
         "name": "Fiddlesticks",
+        "id": 9,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 106
@@ -904,10 +1342,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.11
@@ -915,10 +1349,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Fiora": {
+    "114": {
         "name": "Fiora",
+        "id": 114,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 99
@@ -931,10 +1382,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.69,
             "growth": 3.2
@@ -942,10 +1389,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Fizz": {
+    "105": {
         "name": "Fizz",
+        "id": 105,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 106
@@ -958,10 +1422,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.1
@@ -969,10 +1429,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Galio": {
+    "3": {
         "name": "Galio",
+        "id": 3,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 126
@@ -985,10 +1462,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.5
@@ -996,10 +1469,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Gangplank": {
+    "41": {
         "name": "Gangplank",
+        "id": 41,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 114
@@ -1012,10 +1502,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.2
@@ -1023,10 +1509,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Garen": {
+    "86": {
         "name": "Garen",
+        "id": 86,
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 690,
             "growth": 98
@@ -1039,10 +1542,6 @@
             "base": 32,
             "growth": 1.55
         },
-        "ad": {
-            "base": 69,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.65
@@ -1050,10 +1549,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Gnar": {
+    "150": {
         "name": "Gnar",
+        "id": 150,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 540,
             "growth": 79
@@ -1066,10 +1582,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 6
@@ -1077,10 +1589,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Gragas": {
+    "79": {
         "name": "Gragas",
+        "id": 79,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 115
@@ -1093,10 +1622,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.675,
             "growth": 2.05
@@ -1104,10 +1629,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Graves": {
+    "104": {
         "name": "Graves",
+        "id": 104,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 625,
             "growth": 106
@@ -1120,10 +1662,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.475,
             "growth": 3
@@ -1131,10 +1669,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Gwen": {
+    "887": {
         "name": "Gwen",
+        "id": 887,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 115
@@ -1147,10 +1702,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.69,
             "growth": 2.25
@@ -1158,10 +1709,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Hecarim": {
+    "120": {
         "name": "Hecarim",
+        "id": 120,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 625,
             "growth": 106
@@ -1174,10 +1742,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.67,
             "growth": 2.5
@@ -1185,10 +1749,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Heimerdinger": {
+    "74": {
         "name": "Heimerdinger",
+        "id": 74,
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 558,
             "growth": 105
@@ -1201,10 +1782,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 56,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 1.36
@@ -1212,10 +1789,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Hwei": {
+    "910": {
         "name": "Hwei",
+        "id": 910,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 580,
             "growth": 109
@@ -1228,10 +1822,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.69,
             "growth": 2.5
@@ -1239,10 +1829,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Illaoi": {
+    "420": {
         "name": "Illaoi",
+        "id": 420,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 656,
             "growth": 115
@@ -1255,10 +1862,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.5
@@ -1266,10 +1869,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Irelia": {
+    "39": {
         "name": "Irelia",
+        "id": 39,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 115
@@ -1282,10 +1902,6 @@
             "base": 30,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.656,
             "growth": 2.5
@@ -1293,10 +1909,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ivern": {
+    "427": {
         "name": "Ivern",
+        "id": 427,
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 99
@@ -1309,10 +1942,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 50,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 3.4
@@ -1320,10 +1949,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Janna": {
+    "40": {
         "name": "Janna",
+        "id": 40,
+        "ad": {
+            "base": 47,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 570,
             "growth": 90
@@ -1336,10 +1982,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 47,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3
@@ -1347,10 +1989,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "JarvanIV": {
+    "59": {
         "name": "Jarvan IV",
+        "id": 59,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 104
@@ -1363,10 +2022,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.5
@@ -1374,10 +2029,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Jax": {
+    "24": {
         "name": "Jax",
+        "id": 24,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 103
@@ -1390,10 +2062,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 3.4
@@ -1401,10 +2069,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Jayce": {
+    "126": {
         "name": "Jayce",
+        "id": 126,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 109
@@ -1417,10 +2102,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3
@@ -1428,10 +2109,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Jhin": {
+    "202": {
         "name": "Jhin",
+        "id": 202,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 107
@@ -1444,10 +2142,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 0
@@ -1455,10 +2149,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Jinx": {
+    "222": {
         "name": "Jinx",
+        "id": 222,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 105
@@ -1471,10 +2182,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1
@@ -1482,10 +2189,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kaisa": {
+    "145": {
         "name": "Kai'Sa",
+        "id": 145,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 102
@@ -1498,10 +2222,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 1.8
@@ -1509,10 +2229,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kalista": {
+    "429": {
         "name": "Kalista",
+        "id": 429,
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 560,
             "growth": 114
@@ -1525,10 +2262,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 57,
-            "growth": 0
-        },
         "as": {
             "base": 0.694,
             "growth": 4.5
@@ -1536,10 +2269,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Karma": {
+    "43": {
         "name": "Karma",
+        "id": 43,
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 109
@@ -1552,10 +2302,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 49,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.3
@@ -1563,10 +2309,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Karthus": {
+    "30": {
         "name": "Karthus",
+        "id": 30,
+        "ad": {
+            "base": 46,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 110
@@ -1579,10 +2342,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 46,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.11
@@ -1590,10 +2349,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kassadin": {
+    "38": {
         "name": "Kassadin",
+        "id": 38,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 646,
             "growth": 113
@@ -1606,10 +2382,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.64,
             "growth": 3.7
@@ -1617,10 +2389,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Katarina": {
+    "55": {
         "name": "Katarina",
+        "id": 55,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 672,
             "growth": 108
@@ -1633,10 +2422,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.74
@@ -1644,10 +2429,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kayle": {
+    "10": {
         "name": "Kayle",
+        "id": 10,
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 670,
             "growth": 92
@@ -1660,10 +2462,6 @@
             "base": 22,
             "growth": 1.3
         },
-        "ad": {
-            "base": 50,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.5
@@ -1671,10 +2469,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kayn": {
+    "141": {
         "name": "Kayn",
+        "id": 141,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 103
@@ -1687,10 +2502,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.669,
             "growth": 2.7
@@ -1698,10 +2509,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kennen": {
+    "85": {
         "name": "Kennen",
+        "id": 85,
+        "ad": {
+            "base": 48,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 580,
             "growth": 98
@@ -1714,10 +2542,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 48,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.4
@@ -1725,10 +2549,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Khazix": {
+    "121": {
         "name": "Kha'Zix",
+        "id": 121,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 643,
             "growth": 99
@@ -1741,10 +2582,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.668,
             "growth": 2.7
@@ -1752,10 +2589,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kindred": {
+    "203": {
         "name": "Kindred",
+        "id": 203,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 595,
             "growth": 104
@@ -1768,10 +2622,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.5
@@ -1779,10 +2629,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Kled": {
+    "240": {
         "name": "Kled",
+        "id": 240,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 410,
             "growth": 84
@@ -1795,10 +2662,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.5
@@ -1806,10 +2669,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "KogMaw": {
+    "96": {
         "name": "Kog'Maw",
+        "id": 96,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 635,
             "growth": 99
@@ -1822,10 +2702,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.665,
             "growth": 2.65
@@ -1833,10 +2709,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "KSante": {
+    "897": {
         "name": "K'Sante",
+        "id": 897,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 625,
             "growth": 120
@@ -1849,10 +2742,6 @@
             "base": 30,
             "growth": 2.1
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.688,
             "growth": 2.5
@@ -1860,10 +2749,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Leblanc": {
+    "7": {
         "name": "LeBlanc",
+        "id": 7,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 598,
             "growth": 108
@@ -1876,10 +2782,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.35
@@ -1887,10 +2789,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "LeeSin": {
+    "64": {
         "name": "Lee Sin",
+        "id": 64,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 645,
             "growth": 108
@@ -1903,10 +2822,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.651,
             "growth": 3
@@ -1914,10 +2829,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Leona": {
+    "89": {
         "name": "Leona",
+        "id": 89,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 646,
             "growth": 101
@@ -1930,10 +2862,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.9
@@ -1941,10 +2869,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Lillia": {
+    "876": {
         "name": "Lillia",
+        "id": 876,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 605,
             "growth": 105
@@ -1957,10 +2902,6 @@
             "base": 32,
             "growth": 1.55
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.7
@@ -1968,10 +2909,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Lissandra": {
+    "127": {
         "name": "Lissandra",
+        "id": 127,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 110
@@ -1984,10 +2942,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.656,
             "growth": 1.5
@@ -1995,10 +2949,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Lucian": {
+    "236": {
         "name": "Lucian",
+        "id": 236,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 641,
             "growth": 100
@@ -2011,10 +2982,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 2.5
@@ -2022,10 +2989,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Lulu": {
+    "117": {
         "name": "Lulu",
+        "id": 117,
+        "ad": {
+            "base": 47,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 565,
             "growth": 92
@@ -2038,10 +3022,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 47,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.25
@@ -2049,10 +3029,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Lux": {
+    "99": {
         "name": "Lux",
+        "id": 99,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 580,
             "growth": 99
@@ -2065,10 +3062,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.669,
             "growth": 3
@@ -2076,10 +3069,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Malphite": {
+    "54": {
         "name": "Malphite",
+        "id": 54,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 665,
             "growth": 104
@@ -2092,10 +3102,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.736,
             "growth": 3.4
@@ -2103,10 +3109,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Malzahar": {
+    "90": {
         "name": "Malzahar",
+        "id": 90,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 580,
             "growth": 101
@@ -2119,10 +3142,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.5
@@ -2130,10 +3149,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Maokai": {
+    "57": {
         "name": "Maokai",
+        "id": 57,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 665,
             "growth": 109
@@ -2146,10 +3182,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.8,
             "growth": 2.125
@@ -2157,10 +3189,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "MasterYi": {
+    "11": {
         "name": "Master Yi",
+        "id": 11,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 105
@@ -2173,10 +3222,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.679,
             "growth": 2.5
@@ -2184,10 +3229,27 @@
         "ms": {
             "base": 355,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Mel": {
+    "800": {
         "name": "Mel",
+        "id": 800,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 99
@@ -2200,10 +3262,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.5
@@ -2211,10 +3269,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Milio": {
+    "902": {
         "name": "Milio",
+        "id": 902,
+        "ad": {
+            "base": 48,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 560,
             "growth": 88
@@ -2227,10 +3302,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 48,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3
@@ -2238,10 +3309,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "MissFortune": {
+    "21": {
         "name": "Miss Fortune",
+        "id": 21,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 625,
             "growth": 100
@@ -2254,10 +3342,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.656,
             "growth": 3
@@ -2265,10 +3349,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "MonkeyKing": {
+    "62": {
         "name": "Wukong",
+        "id": 62,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 99
@@ -2281,10 +3382,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.69,
             "growth": 3
@@ -2292,10 +3389,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Mordekaiser": {
+    "82": {
         "name": "Mordekaiser",
+        "id": 82,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 645,
             "growth": 104
@@ -2308,10 +3422,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1
@@ -2319,10 +3429,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Morgana": {
+    "25": {
         "name": "Morgana",
+        "id": 25,
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 104
@@ -2335,10 +3462,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 56,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.53
@@ -2346,10 +3469,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Naafiri": {
+    "950": {
         "name": "Naafiri",
+        "id": 950,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 105
@@ -2362,10 +3502,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.663,
             "growth": 2.1
@@ -2373,10 +3509,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nami": {
+    "267": {
         "name": "Nami",
+        "id": 267,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 560,
             "growth": 88
@@ -2389,10 +3542,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 2.61
@@ -2400,10 +3549,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nasus": {
+    "75": {
         "name": "Nasus",
+        "id": 75,
+        "ad": {
+            "base": 67,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 104
@@ -2416,10 +3582,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 67,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 3.48
@@ -2427,10 +3589,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nautilus": {
+    "111": {
         "name": "Nautilus",
+        "id": 111,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 646,
             "growth": 100
@@ -2443,10 +3622,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.706,
             "growth": 1
@@ -2454,10 +3629,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Neeko": {
+    "518": {
         "name": "Neeko",
+        "id": 518,
+        "ad": {
+            "base": 48,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 104
@@ -2470,10 +3662,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 48,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.5
@@ -2481,10 +3669,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nidalee": {
+    "76": {
         "name": "Nidalee",
+        "id": 76,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 109
@@ -2497,10 +3702,6 @@
             "base": 30,
             "growth": 1.45
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 3.22
@@ -2508,10 +3709,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nilah": {
+    "895": {
         "name": "Nilah",
+        "id": 895,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 570,
             "growth": 101
@@ -2524,10 +3742,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.697,
             "growth": 1.25
@@ -2535,10 +3749,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nocturne": {
+    "56": {
         "name": "Nocturne",
+        "id": 56,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 109
@@ -2551,10 +3782,6 @@
             "base": 32,
             "growth": 1.55
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.721,
             "growth": 2.7
@@ -2562,10 +3789,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Nunu": {
+    "20": {
         "name": "Nunu & Willump",
+        "id": 20,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 90
@@ -2578,10 +3822,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.25
@@ -2589,10 +3829,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Olaf": {
+    "2": {
         "name": "Olaf",
+        "id": 2,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 645,
             "growth": 119
@@ -2605,10 +3862,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.72,
             "growth": 2.7
@@ -2616,10 +3869,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Orianna": {
+    "61": {
         "name": "Orianna",
+        "id": 61,
+        "ad": {
+            "base": 44,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 585,
             "growth": 110
@@ -2632,10 +3902,6 @@
             "base": 26,
             "growth": 1.3
         },
-        "ad": {
-            "base": 44,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.5
@@ -2643,10 +3909,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ornn": {
+    "516": {
         "name": "Ornn",
+        "id": 516,
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 660,
             "growth": 109
@@ -2659,10 +3942,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 69,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -2670,10 +3949,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Pantheon": {
+    "80": {
         "name": "Pantheon",
+        "id": 80,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 109
@@ -2686,10 +3982,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.95
@@ -2697,10 +3989,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Poppy": {
+    "78": {
         "name": "Poppy",
+        "id": 78,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 110
@@ -2713,10 +4022,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.5
@@ -2724,10 +4029,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Pyke": {
+    "555": {
         "name": "Pyke",
+        "id": 555,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 670,
             "growth": 110
@@ -2740,10 +4062,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.667,
             "growth": 2.5
@@ -2751,10 +4069,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Qiyana": {
+    "246": {
         "name": "Qiyana",
+        "id": 246,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 115
@@ -2767,10 +4102,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.688,
             "growth": 2.1
@@ -2778,10 +4109,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Quinn": {
+    "133": {
         "name": "Quinn",
+        "id": 133,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 565,
             "growth": 107
@@ -2794,10 +4142,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.668,
             "growth": 3.1
@@ -2805,10 +4149,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Rakan": {
+    "497": {
         "name": "Rakan",
+        "id": 497,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 99
@@ -2821,10 +4182,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.635,
             "growth": 3
@@ -2832,10 +4189,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Rammus": {
+    "33": {
         "name": "Rammus",
+        "id": 33,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 645,
             "growth": 100
@@ -2848,10 +4222,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.7,
             "growth": 2.215
@@ -2859,10 +4229,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "RekSai": {
+    "421": {
         "name": "Rek'Sai",
+        "id": 421,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 99
@@ -2875,10 +4262,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.667,
             "growth": 2
@@ -2886,10 +4269,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Rell": {
+    "526": {
         "name": "Rell",
+        "id": 526,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 104
@@ -2902,10 +4302,6 @@
             "base": 28,
             "growth": 1.8
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -2913,10 +4309,27 @@
         "ms": {
             "base": 315,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Renata": {
+    "888": {
         "name": "Renata Glasc",
+        "id": 888,
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 545,
             "growth": 94
@@ -2929,10 +4342,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 49,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.11
@@ -2940,10 +4349,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Renekton": {
+    "58": {
         "name": "Renekton",
+        "id": 58,
+        "ad": {
+            "base": 69,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 660,
             "growth": 111
@@ -2956,10 +4382,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 69,
-            "growth": 0
-        },
         "as": {
             "base": 0.665,
             "growth": 2.75
@@ -2967,10 +4389,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Rengar": {
+    "107": {
         "name": "Rengar",
+        "id": 107,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 104
@@ -2983,10 +4422,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.667,
             "growth": 3
@@ -2994,10 +4429,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Riven": {
+    "92": {
         "name": "Riven",
+        "id": 92,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 100
@@ -3010,10 +4462,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.5
@@ -3021,10 +4469,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Rumble": {
+    "68": {
         "name": "Rumble",
+        "id": 68,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 105
@@ -3037,10 +4502,6 @@
             "base": 28,
             "growth": 1.55
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 1.85
@@ -3048,10 +4509,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ryze": {
+    "13": {
         "name": "Ryze",
+        "id": 13,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 645,
             "growth": 124
@@ -3064,10 +4542,6 @@
             "base": 32,
             "growth": 1.3
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.11
@@ -3075,10 +4549,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Samira": {
+    "360": {
         "name": "Samira",
+        "id": 360,
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 108
@@ -3091,10 +4582,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 57,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.3
@@ -3102,10 +4589,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Sejuani": {
+    "113": {
         "name": "Sejuani",
+        "id": 113,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 114
@@ -3118,10 +4622,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.688,
             "growth": 3.5
@@ -3129,10 +4629,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Senna": {
+    "235": {
         "name": "Senna",
+        "id": 235,
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 530,
             "growth": 89
@@ -3145,10 +4662,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 50,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.6
@@ -3156,10 +4669,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Seraphine": {
+    "147": {
         "name": "Seraphine",
+        "id": 147,
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 570,
             "growth": 95
@@ -3172,10 +4702,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 50,
-            "growth": 0
-        },
         "as": {
             "base": 0.669,
             "growth": 2
@@ -3183,10 +4709,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Sett": {
+    "875": {
         "name": "Sett",
+        "id": 875,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 670,
             "growth": 114
@@ -3199,10 +4742,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.75
@@ -3210,10 +4749,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Shaco": {
+    "35": {
         "name": "Shaco",
+        "id": 35,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 99
@@ -3226,10 +4782,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.694,
             "growth": 3
@@ -3237,10 +4789,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Shen": {
+    "98": {
         "name": "Shen",
+        "id": 98,
+        "ad": {
+            "base": 64,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 610,
             "growth": 99
@@ -3253,10 +4822,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 64,
-            "growth": 0
-        },
         "as": {
             "base": 0.751,
             "growth": 3
@@ -3264,10 +4829,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Shyvana": {
+    "102": {
         "name": "Shyvana",
+        "id": 102,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 625,
             "growth": 95
@@ -3280,10 +4862,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 2
@@ -3291,10 +4869,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Singed": {
+    "27": {
         "name": "Singed",
+        "id": 27,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 96
@@ -3307,10 +4902,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.7,
             "growth": 1.9
@@ -3318,10 +4909,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Sion": {
+    "14": {
         "name": "Sion",
+        "id": 14,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 87
@@ -3334,10 +4942,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.679,
             "growth": 1.3
@@ -3345,10 +4949,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Sivir": {
+    "15": {
         "name": "Sivir",
+        "id": 15,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 104
@@ -3361,10 +4982,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1.6
@@ -3372,10 +4989,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Skarner": {
+    "72": {
         "name": "Skarner",
+        "id": 72,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 110
@@ -3388,10 +5022,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -3399,10 +5029,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Smolder": {
+    "901": {
         "name": "Smolder",
+        "id": 901,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 575,
             "growth": 100
@@ -3415,10 +5062,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 4
@@ -3426,10 +5069,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Sona": {
+    "37": {
         "name": "Sona",
+        "id": 37,
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 550,
             "growth": 91
@@ -3442,10 +5102,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 49,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 2.3
@@ -3453,10 +5109,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Soraka": {
+    "16": {
         "name": "Soraka",
+        "id": 16,
+        "ad": {
+            "base": 50,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 605,
             "growth": 88
@@ -3469,10 +5142,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 50,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.14
@@ -3480,10 +5149,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Swain": {
+    "50": {
         "name": "Swain",
+        "id": 50,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 595,
             "growth": 99
@@ -3496,10 +5182,6 @@
             "base": 31,
             "growth": 1.55
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.11
@@ -3507,10 +5189,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Sylas": {
+    "517": {
         "name": "Sylas",
+        "id": 517,
+        "ad": {
+            "base": 61,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 122
@@ -3523,10 +5222,6 @@
             "base": 32,
             "growth": 2.55
         },
-        "ad": {
-            "base": 61,
-            "growth": 0
-        },
         "as": {
             "base": 0.645,
             "growth": 3.5
@@ -3534,10 +5229,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Syndra": {
+    "134": {
         "name": "Syndra",
+        "id": 134,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 563,
             "growth": 100
@@ -3550,10 +5262,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2
@@ -3561,10 +5269,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "TahmKench": {
+    "223": {
         "name": "Tahm Kench",
+        "id": 223,
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 103
@@ -3577,10 +5302,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 56,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.5
@@ -3588,10 +5309,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Taliyah": {
+    "163": {
         "name": "Taliyah",
+        "id": 163,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 550,
             "growth": 104
@@ -3604,10 +5342,6 @@
             "base": 28,
             "growth": 1.3
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 1.36
@@ -3615,10 +5349,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Talon": {
+    "91": {
         "name": "Talon",
+        "id": 91,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 658,
             "growth": 109
@@ -3631,10 +5382,6 @@
             "base": 36,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.9
@@ -3642,10 +5389,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Taric": {
+    "44": {
         "name": "Taric",
+        "id": 44,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 645,
             "growth": 99
@@ -3658,10 +5422,6 @@
             "base": 28,
             "growth": 2.05
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -3669,10 +5429,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Teemo": {
+    "17": {
         "name": "Teemo",
+        "id": 17,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 615,
             "growth": 104
@@ -3685,10 +5462,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.69,
             "growth": 3.38
@@ -3696,10 +5469,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Thresh": {
+    "412": {
         "name": "Thresh",
+        "id": 412,
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 120
@@ -3712,10 +5502,6 @@
             "base": 30,
             "growth": 1.55
         },
-        "ad": {
-            "base": 56,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.5
@@ -3723,10 +5509,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Tristana": {
+    "18": {
         "name": "Tristana",
+        "id": 18,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 102
@@ -3739,10 +5542,6 @@
             "base": 28,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.656,
             "growth": 1.5
@@ -3750,10 +5549,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Trundle": {
+    "48": {
         "name": "Trundle",
+        "id": 48,
+        "ad": {
+            "base": 68,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 110
@@ -3766,10 +5582,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 68,
-            "growth": 0
-        },
         "as": {
             "base": 0.67,
             "growth": 2.9
@@ -3777,10 +5589,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Tryndamere": {
+    "23": {
         "name": "Tryndamere",
+        "id": 23,
+        "ad": {
+            "base": 66,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 696,
             "growth": 108
@@ -3793,10 +5622,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 66,
-            "growth": 0
-        },
         "as": {
             "base": 0.67,
             "growth": 3.4
@@ -3804,10 +5629,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "TwistedFate": {
+    "4": {
         "name": "Twisted Fate",
+        "id": 4,
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 604,
             "growth": 108
@@ -3820,10 +5662,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 52,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.5
@@ -3831,10 +5669,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Twitch": {
+    "29": {
         "name": "Twitch",
+        "id": 29,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 98
@@ -3847,10 +5702,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.679,
             "growth": 3
@@ -3858,10 +5709,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Udyr": {
+    "77": {
         "name": "Udyr",
+        "id": 77,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 664,
             "growth": 92
@@ -3874,10 +5742,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.65,
             "growth": 3
@@ -3885,10 +5749,27 @@
         "ms": {
             "base": 350,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Urgot": {
+    "6": {
         "name": "Urgot",
+        "id": 6,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 102
@@ -3901,10 +5782,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.75
@@ -3912,10 +5789,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Varus": {
+    "110": {
         "name": "Varus",
+        "id": 110,
+        "ad": {
+            "base": 59,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 105
@@ -3928,10 +5822,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 59,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.5
@@ -3939,10 +5829,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Vayne": {
+    "67": {
         "name": "Vayne",
+        "id": 67,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 550,
             "growth": 103
@@ -3955,10 +5862,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.3
@@ -3966,10 +5869,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Veigar": {
+    "45": {
         "name": "Veigar",
+        "id": 45,
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 580,
             "growth": 108
@@ -3982,10 +5902,6 @@
             "base": 32,
             "growth": 1.3
         },
-        "ad": {
-            "base": 52,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.24
@@ -3993,10 +5909,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Velkoz": {
+    "161": {
         "name": "Vel'Koz",
+        "id": 161,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 102
@@ -4009,10 +5942,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.643,
             "growth": 1.59
@@ -4020,10 +5949,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Vex": {
+    "711": {
         "name": "Vex",
+        "id": 711,
+        "ad": {
+            "base": 54,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 104
@@ -4036,10 +5982,6 @@
             "base": 28,
             "growth": 1.3
         },
-        "ad": {
-            "base": 54,
-            "growth": 0
-        },
         "as": {
             "base": 0.669,
             "growth": 1
@@ -4047,10 +5989,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Vi": {
+    "254": {
         "name": "Vi",
+        "id": 254,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 655,
             "growth": 105
@@ -4063,10 +6022,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.644,
             "growth": 2
@@ -4074,10 +6029,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Viego": {
+    "234": {
         "name": "Viego",
+        "id": 234,
+        "ad": {
+            "base": 57,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 109
@@ -4090,10 +6062,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 57,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.75
@@ -4101,10 +6069,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Viktor": {
+    "112": {
         "name": "Viktor",
+        "id": 112,
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 100
@@ -4117,10 +6102,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 53,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.11
@@ -4128,10 +6109,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Vladimir": {
+    "8": {
         "name": "Vladimir",
+        "id": 8,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 110
@@ -4144,10 +6142,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2
@@ -4155,10 +6149,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Volibear": {
+    "106": {
         "name": "Volibear",
+        "id": 106,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 104
@@ -4171,10 +6182,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -4182,10 +6189,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Warwick": {
+    "19": {
         "name": "Warwick",
+        "id": 19,
+        "ad": {
+            "base": 65,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 99
@@ -4198,10 +6222,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 65,
-            "growth": 0
-        },
         "as": {
             "base": 0.638,
             "growth": 2
@@ -4209,10 +6229,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Xayah": {
+    "498": {
         "name": "Xayah",
+        "id": 498,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 107
@@ -4225,10 +6262,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 3.9
@@ -4236,10 +6269,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Xerath": {
+    "101": {
         "name": "Xerath",
+        "id": 101,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 596,
             "growth": 106
@@ -4252,10 +6302,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 1.36
@@ -4263,10 +6309,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "XinZhao": {
+    "5": {
         "name": "Xin Zhao",
+        "id": 5,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 106
@@ -4279,10 +6342,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.645,
             "growth": 3.5
@@ -4290,10 +6349,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Yasuo": {
+    "157": {
         "name": "Yasuo",
+        "id": 157,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 110
@@ -4306,10 +6382,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.697,
             "growth": 3.5
@@ -4317,10 +6389,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Yone": {
+    "777": {
         "name": "Yone",
+        "id": 777,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 620,
             "growth": 105
@@ -4333,10 +6422,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 3.5
@@ -4344,10 +6429,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Yorick": {
+    "83": {
         "name": "Yorick",
+        "id": 83,
+        "ad": {
+            "base": 62,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 650,
             "growth": 114
@@ -4360,10 +6462,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 62,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2
@@ -4371,10 +6469,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Yunara": {
+    "804": {
         "name": "Yunara",
+        "id": 804,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 590,
             "growth": 110
@@ -4387,10 +6502,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.65,
             "growth": 2
@@ -4398,10 +6509,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Yuumi": {
+    "350": {
         "name": "Yuumi",
+        "id": 350,
+        "ad": {
+            "base": 49,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 500,
             "growth": 69
@@ -4414,10 +6542,6 @@
             "base": 25,
             "growth": 1.1
         },
-        "ad": {
-            "base": 49,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 1
@@ -4425,10 +6549,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zaahen": {
+    "904": {
         "name": "Zaahen",
+        "id": 904,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 640,
             "growth": 114
@@ -4441,10 +6582,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.625,
             "growth": 2.5
@@ -4452,10 +6589,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zac": {
+    "154": {
         "name": "Zac",
+        "id": 154,
+        "ad": {
+            "base": 60,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 685,
             "growth": 109
@@ -4468,10 +6622,6 @@
             "base": 32,
             "growth": 2.05
         },
-        "ad": {
-            "base": 60,
-            "growth": 0
-        },
         "as": {
             "base": 0.736,
             "growth": 1.6
@@ -4479,10 +6629,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zed": {
+    "238": {
         "name": "Zed",
+        "id": 238,
+        "ad": {
+            "base": 63,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 654,
             "growth": 99
@@ -4495,10 +6662,6 @@
             "base": 29,
             "growth": 2.05
         },
-        "ad": {
-            "base": 63,
-            "growth": 0
-        },
         "as": {
             "base": 0.651,
             "growth": 3.3
@@ -4506,10 +6669,27 @@
         "ms": {
             "base": 345,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zeri": {
+    "221": {
         "name": "Zeri",
+        "id": 221,
+        "ad": {
+            "base": 56,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 600,
             "growth": 110
@@ -4522,10 +6702,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 56,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2
@@ -4533,10 +6709,27 @@
         "ms": {
             "base": 330,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Ziggs": {
+    "115": {
         "name": "Ziggs",
+        "id": 115,
+        "ad": {
+            "base": 55,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 606,
             "growth": 106
@@ -4549,10 +6742,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 55,
-            "growth": 0
-        },
         "as": {
             "base": 0.656,
             "growth": 2
@@ -4560,10 +6749,27 @@
         "ms": {
             "base": 325,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zilean": {
+    "26": {
         "name": "Zilean",
+        "id": 26,
+        "ad": {
+            "base": 52,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 574,
             "growth": 96
@@ -4576,10 +6782,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 52,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.13
@@ -4587,10 +6789,27 @@
         "ms": {
             "base": 335,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zoe": {
+    "142": {
         "name": "Zoe",
+        "id": 142,
+        "ad": {
+            "base": 58,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 630,
             "growth": 106
@@ -4603,10 +6822,6 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 58,
-            "growth": 0
-        },
         "as": {
             "base": 0.658,
             "growth": 2.5
@@ -4614,10 +6829,27 @@
         "ms": {
             "base": 340,
             "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
+            "growth": 0
         }
     },
-    "Zyra": {
+    "143": {
         "name": "Zyra",
+        "id": 143,
+        "ad": {
+            "base": 53,
+            "growth": 0
+        },
+        "ap": {
+            "base": 0,
+            "growth": 0
+        },
         "hp": {
             "base": 574,
             "growth": 93
@@ -4630,16 +6862,20 @@
             "base": 30,
             "growth": 1.3
         },
-        "ad": {
-            "base": 53,
-            "growth": 0
-        },
         "as": {
             "base": 0.681,
             "growth": 2.11
         },
         "ms": {
             "base": 340,
+            "growth": 0
+        },
+        "crit": {
+            "base": 0,
+            "growth": 0
+        },
+        "lifesteal": {
+            "base": 0,
             "growth": 0
         }
     }

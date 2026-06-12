@@ -2,11 +2,15 @@
 import requests
 import json
 import os
+import sys
 import pandas as pd
 import numpy as np
 
-BASE_DIR = r"C:\Users\Lucas\Desktop\LTA"
-DATA_DIR = os.path.join(BASE_DIR, "data")
+# Calculate root directory relative to this file
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.join(BASE_DIR, "src", "core"))
+import config
+DATA_DIR = config.DATA_DIR
 
 def extract_dna():
     versions = requests.get("https://ddragon.leagueoflegends.com/api/versions.json").json()
