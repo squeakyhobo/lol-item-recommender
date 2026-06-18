@@ -4,25 +4,40 @@ import torch.nn.functional as F
 
 class YorickMLP(nn.Module):
     """
-    Maiden Brain V2.1: The Ultimate Expert MLP.
-    Features: Direct Inventory Vision + Expert Tags.
+    Maiden Brain V2.3 (Ultra-Brain): Optimized for Multi-Champion Mastery.
+    Supports Yorick, Sett, Mundo, Trundle, Morde, Garen.
+    Scaled to 2048 neurons with heavy regularization.
     """
-    def __init__(self, num_champs=200, num_runes=10, num_items=30, numerical_dim=61):
+    def __init__(self, num_champs=200, num_runes=20, num_items=30, numerical_dim=113):
         super(YorickMLP, self).__init__()
         
         # 1. Categorical Embeddings
-        self.champ_emb = nn.Embedding(num_champs, 32)
-        self.rune_emb = nn.Embedding(num_runes, 16)
-        self.inv_emb = nn.Embedding(10000, 16) # Embed all possible Item IDs
+        self.champ_emb = nn.Embedding(num_champs, 64) # Increased embedding size
+        self.rune_emb = nn.Embedding(num_runes, 32)
+        self.inv_emb = nn.Embedding(10000, 16) 
         
         # 2. Dense Layers for Numerical Features
-        # Dimensions: Champ(32) + Opp(32) + Rune(16) + Inventory(6*16=96) + Stats(61) = 237
-        self.input_layer = nn.Linear(32 + 32 + 16 + 96 + numerical_dim, 512)
+        # Dimensions: Champ(64) + Opp(64) + Rune(32) + Inventory(6*16=96) + Stats(dim)
+        input_size = 64 + 64 + 32 + 96 + numerical_dim
+        self.input_layer = nn.Linear(input_size, 2048)
+        self.bn1 = nn.BatchNorm1d(2048)
         
         self.hidden_layers = nn.Sequential(
-            nn.Linear(512, 512),
+            nn.Linear(2048, 2048),
             nn.ReLU(),
+            nn.BatchNorm1d(2048),
+            nn.Dropout(0.4),
+            
+            nn.Linear(2048, 1024),
+            nn.ReLU(),
+            nn.BatchNorm1d(1024),
+            nn.Dropout(0.3),
+            
+            nn.Linear(1024, 512),
+            nn.ReLU(),
+            nn.BatchNorm1d(512),
             nn.Dropout(0.2),
+            
             nn.Linear(512, 256),
             nn.ReLU()
         )
@@ -36,23 +51,19 @@ class YorickMLP(nn.Module):
         me_e = self.champ_emb(my_id)
         opp_e = self.champ_emb(opp_id)
         rune_e = self.rune_emb(rune_id)
-        
-        # 2. Embed Inventory (6 slots -> flattened)
-        # [batch, 6] -> [batch, 6, 16] -> [batch, 96]
         inv_e = self.inv_emb(inv_ids).view(inv_ids.size(0), -1)
         
-        # 3. Combine all features
+        # 2. Combine all features
         x = torch.cat([me_e, opp_e, rune_e, inv_e, numerical_feats], dim=1)
         
-        # 4. Process through MLP
-        x = F.relu(self.input_layer(x))
+        # 3. Process through Scaled MLP
+        x = F.relu(self.bn1(self.input_layer(x)))
         x = self.hidden_layers(x)
         
         # 4. Predict
         s_logits = self.strategy_head(x)
         i_logits = self.item_head(x)
         
-        # Apply mask in inference if needed
         if item_mask is not None:
             i_logits = i_logits.masked_fill(item_mask.bool(), -1e9)
             

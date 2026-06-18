@@ -22,6 +22,7 @@ models/
 
 
 logs/
+debug/
 debug/*.json
 debug/*.jsonl
 *.log
@@ -36,3 +37,7 @@ venv/
 env/
 .venv/
 GEMINI.md
+
+
+src/scraper/
+src/pipeline/

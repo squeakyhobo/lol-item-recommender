@@ -69,8 +69,24 @@ class Watcher:
             return enemies
         except: return []
 
-    def get_expert_rune_advice(self, matchup):
-        """Uses the high-fidelity lookup table for matchup runes."""
+    def get_my_champ(self, access):
+        """Detects which champion the local player has locked in."""
+        try:
+            r = requests.get(f"{access['url']}/lol-champ-select/v1/session", auth=('riot', access['password']), verify=False)
+            if r.status_code != 200: return "Yorick" # Default
+            data = r.json()
+            local_cell_id = data.get("localPlayerCellId")
+            for p in data.get("myTeam", []):
+                if p.get("cellId") == local_cell_id:
+                    cid = str(p.get("championId", 0))
+                    for name, info in self.kb.items():
+                        if info["id"] == cid:
+                            return name.capitalize()
+            return "Yorick"
+        except: return "Yorick"
+
+    def get_expert_rune_advice(self, champion, matchup):
+        """Uses the multi-champ lookup table for tailored rune advice."""
         lookup_path = os.path.join(DATA_DIR, "rune_lookup.json")
         if not os.path.exists(lookup_path):
             return "Grasp (Default)", {}
@@ -78,10 +94,14 @@ class Watcher:
         with open(lookup_path, "r") as f:
             lookup_table = json.load(f)
             
-        data = lookup_table.get(matchup.lower(), lookup_table.get("unknown", {}))
+        # Get the specific sub-table for the current champion
+        champ_key = champion.lower()
+        champ_lookup = lookup_table.get(champ_key, lookup_table.get("yorick", {}))
+        
+        data = champ_lookup.get(matchup.lower(), champ_lookup.get("unknown", {}))
         
         # Format stats for printing
-        stats_text = f"\n  [Stats from {data.get('total_games', 0)} games]\n"
+        stats_text = f"\n  [{champion} vs {matchup} stats from {data.get('total_games', 0)} games]\n"
         stats_text += f"  Keystones: {', '.join([f'{k}({v})' for k,v in data.get('keystone_stats', {}).items()])}\n"
         stats_text += f"  Secondary: {', '.join([f'{k}({v})' for k,v in data.get('secondary_stats', {}).items()])}\n"
         
@@ -132,14 +152,18 @@ class Watcher:
                             
                             print("\n[?] Who is the TOP LANER? (1-5, or 0 to skip):")
                             try:
-                                # Non-blocking input would be better, but for simplicity:
                                 ui = input(">> ").strip()
                                 if ui and ui != "0":
                                     top_idx = int(ui) - 1
                                     self.locked_matchup = enemies[top_idx]["name"]
-                                    rune_advice, rune_stats = self.get_expert_rune_advice(self.locked_matchup)
+                                    
+                                    # New: Multi-Champ Rune Advice
+                                    my_champ = self.get_my_champ(access)
+                                    rune_advice, rune_stats = self.get_expert_rune_advice(my_champ, self.locked_matchup)
+                                    
+                                    print(f"\n--- {my_champ.upper()} EXPERT ADVICE ---")
                                     print(rune_stats)
-                                    self.speak(f"Against {self.locked_matchup}, use {rune_advice}.")
+                                    self.speak(f"Playing {my_champ} against {self.locked_matchup}. Use {rune_advice}.")
                             except: pass
                             break 
                         

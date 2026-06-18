@@ -59,18 +59,27 @@ class InferenceThread(QThread):
         
         # Map Champion names to 0-200 for embeddings
         self.champ_to_idx = {name: i for i, name in enumerate(sorted(self.kb.keys()))}
-        self.vocab_list = sorted(list(self.yorick_vocab.keys()), key=lambda x: self.yorick_vocab[x])
-        self.core_items = ["3078", "6692", "3153", "6631", "3181"]
+        # Multi-Champ Core Map
+        self.CORE_MAP = {
+            "yorick": ["3078", "6692", "3153", "6631", "3181"],
+            "sett": ["6610", "3053", "2501", "3748", "3143"]
+        }
+        self.current_champ = "Yorick" # Default
+        self.core_items = self.CORE_MAP["yorick"]
         
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
-        # Sychronized with V2.1 architecture (61 features)
-        self.model = YorickMLP(num_champs=200, num_runes=10, num_items=self.vocab_size, numerical_dim=61).to(self.device)
+        # Calculate numerical_dim dynamically: Context(17) + DNA(3*23=69) + Dist(vocab_size)
+        dyn_numerical_dim = 17 + 69 + self.vocab_size
+        print(f"[*] HUD: Dynamically calculated numerical_dim: {dyn_numerical_dim}")
+
+        # Sychronized with V2.2 architecture
+        self.model = YorickMLP(num_champs=200, num_runes=20, num_items=self.vocab_size, numerical_dim=dyn_numerical_dim).to(self.device)
         
         # Load V2 Weights
         if os.path.exists(config.V2_MODEL_PATH):
             self.model.load_state_dict(torch.load(config.V2_MODEL_PATH, map_location=self.device))
-            print(f"[*] HUD: Loaded Maiden Brain V2.1 (Omega Context Edition).")
+            print(f"[*] HUD: Loaded Maiden Brain V2.2 (Pro Edition).")
         else:
             print(f"[!] HUD: V2 Model weights not found at {config.V2_MODEL_PATH}")
         
@@ -91,7 +100,8 @@ class InferenceThread(QThread):
         except: pass
 
     def calculate_dna(self, name, lvl, inv):
-        total = [0.0] * 9
+        # 12 Stats + 11 Intent Bits = 23 Total DNA Slots
+        total = [0.0] * 23
         clean_name = name.replace(" ", "").replace("'", "").lower()
         c_info = self.kb.get(clean_name, {})
         c_id = c_info.get("id")
@@ -99,9 +109,24 @@ class InferenceThread(QThread):
             c = self.champ_dna[str(c_id)]
             lf = (lvl - 1)
             total[0] = (c["ad"]["base"] + (c["ad"]["growth"] * lf)) / 150.0
+            total[1] = 0.0 # Base AP is 0
             total[2] = (c["hp"]["base"] + (c["hp"]["growth"] * lf)) / 4000.0
             total[3] = (c["armor"]["base"] + (c["armor"]["growth"] * lf)) / 200.0
             total[4] = (c["mr"]["base"] + (c["mr"]["growth"] * lf)) / 200.0
+            total[5] = (c["as"]["base"] + (c["as"]["growth"] * lf)) / 2.0
+            total[6] = (c["ms"]["base"]) / 500.0
+            total[7] = (c["crit"]["base"] + (c["crit"]["growth"] * lf)) / 1.0
+            total[8] = 0.0 # Base lifesteal is 0
+            total[9] = 0.0 # Haste
+            total[10] = 0.0 # Armor Pen
+            total[11] = 0.0 # Magic Pen
+
+        intent_keys = [
+            "is_anti_heal", "is_lifeline", "is_burn", "is_penetration", 
+            "is_lethality", "is_spellblade", "is_on_hit", "is_slow", 
+            "is_shield_breaker", "is_tenacity", "is_aoe"
+        ]
+
         for iid in inv:
             if str(iid) in self.item_dna:
                 d = self.item_dna[str(iid)]
@@ -110,6 +135,17 @@ class InferenceThread(QThread):
                 total[2] += d.get("hp", 0) / 4000.0
                 total[3] += d.get("armor", 0) / 200.0
                 total[4] += d.get("mr", 0) / 200.0
+                total[5] += d.get("as", 0) / 2.0
+                total[6] += d.get("ms", 0) / 500.0
+                total[7] += d.get("crit", 0) / 1.0
+                total[8] += d.get("lifesteal", 0) / 1.0
+                total[9] += d.get("haste", 0) / 100.0
+                total[10] += d.get("armor_pen", 0) / 50.0
+                total[11] += d.get("magic_pen", 0) / 50.0
+
+                for i, key in enumerate(intent_keys):
+                    if d.get(key, 0) == 1:
+                        total[12 + i] = 1.0
         return total
 
     def calculate_dist_vector(self, inv):
@@ -123,6 +159,16 @@ class InferenceThread(QThread):
                 val = sum([cost for cid, cost in c_info.get("components", {}).items() if cid in inv_str])
                 dist[i_idx] = max(0.0, 1.0 - (val / max(c_info.get("total_cost", 3000), 1)))
         return dist
+
+    def get_real_gold(self, player_dict):
+        """Calculates actual net worth since API totalGold is often bugged at 0."""
+        current_gold = player_dict.get("currentGold", 0) # Only works for active player, but safe to default 0
+        inv = [i.get("itemID") for i in player_dict.get("items", []) if i.get("itemID")]
+        inv_value = sum([self.item_costs.get(str(iid), {}).get("total_cost", 0) for iid in inv])
+        
+        # If API gives us a real number, use it if it's higher than our estimate
+        api_gold = player_dict.get("stats", {}).get("totalGold", 0)
+        return max(api_gold, inv_value + current_gold)
 
     def run(self):
         while True:
@@ -147,61 +193,71 @@ class InferenceThread(QThread):
                         owned = [i.get("itemID") for i in p.get("items", []) if i.get("itemID")]
                         ateam = p.get("team")
                         alvl = p.get("level", 1)
+                        # New: Detect Current Champion
+                        self.current_champ = p.get("championName", "Yorick")
+                        self.core_items = self.CORE_MAP.get(self.current_champ.lower(), self.CORE_MAP["yorick"])
                         break
                 
                 # 1. Manual Gold Calculation
+                live_total_gold = self.get_real_gold(active)
                 current_gold = active.get("currentGold", 0)
-                inv_value = sum([self.item_costs.get(str(iid), {}).get("total_cost", 0) for iid in owned])
-                live_total_gold = current_gold + inv_value
 
                 # 2. Matchup Discovery (Smart Swap with Threat Inertia)
                 opp_name = self.locked_matchup if self.locked_matchup else "Unknown"
-                
+
+                # Identify Enemies
+                enemies = [p for p in allp if p.get("team") != ateam]
+                enemies.sort(key=lambda x: (self.get_real_gold(x), x.get("level", 0)), reverse=True)
+
                 if game_time > 14 or not self.locked_matchup:
                     potential_threat = "Unknown"
-                    for p in allp:
+
+                    # Try to find specific TOP laner first
+                    for p in enemies:
                         pos = str(p.get("teamPosition", p.get("individualPosition", "UNKNOWN"))).upper()
-                        if (pos in ["TOP", "TOPLANE"]) and p.get("team") != ateam:
-                            potential_threat = p.get("championName"); break
-                    
+                        if pos in ["TOP", "TOPLANE"]:
+                            potential_threat = p.get("championName")
+                            break
+
+                    # Fallback: If no TOP found, use the current most fed enemy (The "Boss")
+                    if potential_threat == "Unknown" and enemies:
+                        potential_threat = enemies[0].get("championName")
+
                     if game_time > 14:
-                        enemies = [p for p in allp if p.get("team") != ateam]
                         if enemies:
-                            enemies.sort(key=lambda x: (x.get("level", 0), x.get("stats", {}).get("totalGold", 0)), reverse=True)
                             top_threat = enemies[0]
                             top_threat_name = top_threat.get("championName")
-                            top_threat_gold = top_threat.get("stats", {}).get("totalGold", 0)
+                            top_threat_gold = self.get_real_gold(top_threat)
                             top_threat_lvl = top_threat.get("level", 0)
-                            
+
                             # Threat Inertia Rule
                             if self.current_boss_name == "Unknown":
                                 self.current_boss_name = top_threat_name
                                 self.current_boss_gold = top_threat_gold
                             else:
-                                # Find current boss stats
                                 current_boss_stats = next((e for e in enemies if e.get("championName") == self.current_boss_name), None)
-                                cb_gold = current_boss_stats.get("stats", {}).get("totalGold", 0) if current_boss_stats else self.current_boss_gold
+                                cb_gold = self.get_real_gold(current_boss_stats) if current_boss_stats else self.current_boss_gold
                                 cb_lvl = current_boss_stats.get("level", 0) if current_boss_stats else 0
-                                
-                                # Only swap if the new threat is +1 Level OR +1500 Gold richer than the current boss
+
                                 if top_threat_name != self.current_boss_name:
                                     if top_threat_lvl > cb_lvl or top_threat_gold > (cb_gold + 1500):
                                         self.current_boss_name = top_threat_name
                                         self.current_boss_gold = top_threat_gold
-                                        
+
                             opp_name = self.current_boss_name
                     else:
                         opp_name = potential_threat if potential_threat != "Unknown" else opp_name
                 
                 # 3. Rich Feature Extraction
                 clean_opp = opp_name.replace(" ", "").replace("'", "").lower()
-                opp_tags = self.kb.get(clean_opp, {"is_healer": 0, "has_shields": 0, "is_aa_heavy": 0, "is_tanky": 0})
+                opp_tags = self.kb.get(clean_opp, {"is_healer": 0, "has_shields": 0, "is_aa_heavy": 0, "is_tanky": 0, "is_cc_heavy": 0, "is_mobile": 0, "archetype": 0})
                 
                 core_count = sum(1 for iid in owned if str(iid) in self.core_items)
                 
-                team_healers, team_aa, team_tanks = 0, 0, 0
+                team_healers, team_aa, team_tanks, team_cc, team_mobile = 0, 0, 0, 0, 0
                 enemy_dnas = []
                 enemy_golds = []
+                enemy_threat_scores = []
                 for p in allp:
                     if p.get("team") != ateam:
                         p_name = p.get("championName", "")
@@ -209,12 +265,31 @@ class InferenceThread(QThread):
                         team_healers += tags.get("is_healer", 0)
                         team_aa += tags.get("is_aa_heavy", 0)
                         team_tanks += tags.get("is_tanky", 0)
+                        team_cc += tags.get("is_cc_heavy", 0)
+                        team_mobile += tags.get("is_mobile", 0)
+                        
                         inv = [i.get("itemID") for i in p.get("items", []) if i.get("itemID")]
-                        enemy_dnas.append(self.calculate_dna(p_name, p.get("level", 1), inv))
-                        enemy_golds.append(p.get("stats", {}).get("totalGold", 0))
+                        dna = self.calculate_dna(p_name, p.get("level", 1), inv)
+                        enemy_dnas.append(dna)
+                        
+                        egold = self.get_real_gold(p)
+                        enemy_golds.append(egold)
+                        
+                        # Synchronized Threat Score: Gold(50%) + Level(30%) + CounterTags(20%)
+                        t_score = (egold / 1000.0) * 0.5 + p.get("level", 1) * 0.3 + \
+                                  (tags.get("is_aa_heavy", 0) + tags.get("is_healer", 0) + tags.get("is_cc_heavy", 0)) * 2.0
+                        enemy_threat_scores.append(t_score)
+
                 
-                avg_enemy_dna = [sum(stat) / max(len(enemy_dnas), 1) for stat in zip(*enemy_dnas)] if enemy_dnas else [0.0] * 9
-                my_dna = self.calculate_dna("Yorick", alvl, owned)
+                avg_enemy_dna = [sum(stat) / max(len(enemy_dnas), 1) for stat in zip(*enemy_dnas)] if enemy_dnas else [0.0] * 23
+                
+                # New: Highest Threat DNA (Synchronized with Training)
+                threat_dna = [0.0] * 23
+                if enemy_threat_scores:
+                    max_idx = enemy_threat_scores.index(max(enemy_threat_scores))
+                    threat_dna = enemy_dnas[max_idx]
+
+                my_dna = self.calculate_dna(self.current_champ, alvl, owned)
                 
                 # Enemy Snowball Awareness
                 max_enemy_gold = max(enemy_golds) if enemy_golds else 0
@@ -227,14 +302,14 @@ class InferenceThread(QThread):
                 gold_velocity = live_total_gold - self.history[0]
 
                 # 4. Construct Tensors
-                my_id_t = torch.tensor([self.champ_to_idx.get("yorick", 0)], dtype=torch.long).to(self.device)
+                my_id_t = torch.tensor([self.champ_to_idx.get(self.current_champ.lower(), 0)], dtype=torch.long).to(self.device)
                 opp_id_t = torch.tensor([self.champ_to_idx.get(clean_opp, 0)], dtype=torch.long).to(self.device)
                 
                 keystone = active.get("fullRunes", {}).get("keystone", {}).get("id", 0)
                 rune_idx = config.RUNE_MAP.get(keystone, 0)
                 rune_t = torch.tensor([rune_idx], dtype=torch.long).to(self.device)
                 
-                # Context must be exactly 12 items for total dim 61
+                # Context must be exactly 17 items for total dim 131 (approx)
                 context = [
                     game_time / 40.0, 
                     live_total_gold / 20000.0, 
@@ -244,12 +319,17 @@ class InferenceThread(QThread):
                     opp_tags.get("has_shields", 0), 
                     opp_tags.get("is_aa_heavy", 0), 
                     opp_tags.get("is_tanky", 0),
+                    opp_tags.get("is_cc_heavy", 0),
+                    opp_tags.get("is_mobile", 0),
+                    opp_tags.get("archetype", 0) / 5.0,
                     team_healers / 5.0, 
                     team_aa / 5.0, 
                     team_tanks / 5.0,
+                    team_cc / 5.0,
+                    team_mobile / 5.0,
                     enemy_snowball_ratio / 5.0
                 ]
-                num_feats = context + my_dna + avg_enemy_dna + self.calculate_dist_vector(owned)
+                num_feats = context + my_dna + avg_enemy_dna + threat_dna + self.calculate_dist_vector(owned)
                 num_t = torch.tensor([num_feats], dtype=torch.float32).to(self.device)
 
                 # 5. Format Inventory for Model (Direct Vision)

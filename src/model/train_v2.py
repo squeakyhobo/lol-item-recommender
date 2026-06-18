@@ -33,14 +33,16 @@ class V2Dataset(Dataset):
         rune_id = torch.tensor(row["rune_id"], dtype=torch.long)
         inv_ids = torch.tensor(row["inventory"], dtype=torch.long)
         
-        # Numerical Features (Context [12] + DNA [18] + Dist [31] = 61)
+        # Numerical Features (Context [17] + DNA [69] + Dist [vocab_size])
         context = [
             row["minute"], row["total_gold"], row["gold_velocity"], row["core_progress"],
             row["lane_healer"], row["lane_shield"], row["lane_aa"], row["lane_tank"],
-            row["team_healers"], row["team_aa"], row["team_tanks"], row["enemy_snowball"]
+            row["lane_cc_heavy"], row["lane_mobile"], row["lane_archetype"],
+            row["team_healers"], row["team_aa"], row["team_tanks"], row["team_cc"], row["team_mobile"],
+            row["enemy_snowball"]
         ]
         
-        num_feats = context + row["my_dna"] + row["enemy_dna"] + row["p_dist"]
+        num_feats = context + row["my_dna"] + row["enemy_dna"] + row["threat_dna"] + row["p_dist"]
         num_t = torch.tensor(num_feats, dtype=torch.float32)
         
         target_iid = str(row["target_item"])
@@ -67,19 +69,23 @@ def train():
     train_size = int(0.9 * len(ds))
     train_ds, val_ds = random_split(ds, [train_size, len(ds)-train_size])
     
-    train_loader = DataLoader(train_ds, batch_size=64, shuffle=True)
-    val_loader = DataLoader(val_ds, batch_size=64)
+    train_loader = DataLoader(train_ds, batch_size=128, shuffle=True)
+    val_loader = DataLoader(val_ds, batch_size=128)
 
-    # Initialize Model with synchronized dimension (61)
-    model = YorickMLP(num_champs=200, num_runes=10, num_items=vocab_size, numerical_dim=61).to(device)
+    # Calculate numerical_dim dynamically: Context(17) + DNA(3*23=69) + Dist(vocab_size)
+    dyn_numerical_dim = 17 + 69 + vocab_size
+    print(f"[*] Dynamically calculated numerical_dim: {dyn_numerical_dim}")
+
+    # Initialize Model with synchronized dimension
+    model = YorickMLP(num_champs=200, num_runes=20, num_items=vocab_size, numerical_dim=dyn_numerical_dim).to(device)
     
     optimizer = optim.Adam(model.parameters(), lr=0.0005)
     criterion = nn.CrossEntropyLoss()
 
     best_acc = 0.0
-    epochs = 140
+    
 
-    for epoch in range(epochs):
+    for epoch in range(config.NUM_EPOCHS):
         model.train()
         total_loss = 0
         
