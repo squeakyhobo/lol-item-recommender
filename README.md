@@ -1,4 +1,4 @@
-lol item reccomender and rune picker 
+lol item reccomender and rune picker - to see if it can help me in ranked with decision making for items
 
 lookup table for rune picker
 
