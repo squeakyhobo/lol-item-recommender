@@ -5,9 +5,18 @@ lookup table for rune picker
 MLP for item recomemder 
 
 optimisations/tweaks:
- - only trained off yorick games 
+ - only trained off the following with 1000+ games each:
+     - yorick
+     - mundo
+     - mordekaiser
+     - sett
+     - garren
+     - darius
+     - trundle
+
+       
  - only picks legendary items
- - only recommends items that the yoricks picked in the trained matches (31 in total main items )
+ 
  
 
 notable inputs /features :
@@ -16,9 +25,9 @@ notable inputs /features :
 - current inv
 - ur top lane matchup archetype 
 - number to represent if ur behind or snowballing to better pick items in real time
+- features of a enemey and there items i.e lifesteal , cc heavy ad heavy ap aa etc
 
 
-overlay to help pick items for yorick top
 
 
 
