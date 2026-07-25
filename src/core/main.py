@@ -30,8 +30,8 @@ def find_lcu_access():
 class Watcher:
     def __init__(self):
         self.active_process = None
-        self.current_mode = None 
-        self.locked_matchup = None
+        self.current_mode = None
+        self.lobby_matchup = None
         
         # Voice Engine
         self.tts = pyttsx3.init()
@@ -113,10 +113,7 @@ class Watcher:
         self.current_mode = "HUD"
         script = os.path.join(BASE_DIR, "src", "core", "inference_hud.py")
         cmd = ["py", "-3.12", script]
-        if self.locked_matchup:
-            cmd.extend(["--matchup", self.locked_matchup])
-        
-        print(f"[*] DEPLOYING LIVE HUD (Matchup: {self.locked_matchup})...")
+        print("[*] DEPLOYING LIVE HUD...")
         self.active_process = subprocess.Popen(cmd)
 
     def stop_active(self):
@@ -155,15 +152,15 @@ class Watcher:
                                 ui = input(">> ").strip()
                                 if ui and ui != "0":
                                     top_idx = int(ui) - 1
-                                    self.locked_matchup = enemies[top_idx]["name"]
+                                    self.lobby_matchup = enemies[top_idx]["name"]
                                     
                                     # New: Multi-Champ Rune Advice
                                     my_champ = self.get_my_champ(access)
-                                    rune_advice, rune_stats = self.get_expert_rune_advice(my_champ, self.locked_matchup)
+                                    rune_advice, rune_stats = self.get_expert_rune_advice(my_champ, self.lobby_matchup)
                                     
                                     print(f"\n--- {my_champ.upper()} EXPERT ADVICE ---")
                                     print(rune_stats)
-                                    self.speak(f"Playing {my_champ} against {self.locked_matchup}. Use {rune_advice}.")
+                                    self.speak(f"Playing {my_champ} against {self.lobby_matchup}. Use {rune_advice}.")
                             except: pass
                             break 
                         
@@ -182,7 +179,7 @@ class Watcher:
                     print("[*] Game ended. Resetting Watcher.")
                     self.stop_active()
                     self.current_mode = None
-                    self.locked_matchup = None
+                    self.lobby_matchup = None
 
             except Exception as e:
                 # Silently catch API errors (Riot API is jittery)
